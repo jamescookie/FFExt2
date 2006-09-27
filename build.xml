@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="firefox extension" default="build">
+
+    <property name="extension.name" value="datepicker" />
+    <property name="extension.full.name" value="Date Picker/Calendar" />
+    <property name="extension.author" value="James Cook" />
+    <property name="extension.version" value="0.3" />
+    <property name="base.url" value="http://www.jamescookie.com" />
+    <property name="extensions.url" value="${base.url}/extensions/" />
+    <property name="extension.description" value="Quick popup allowing you to view a calendar/pick a date." />
+
+    <property name="build.directory" value="build" />
+    <property name="tmp.directory" value="tmp" />
+
+    <target name="build" depends="clean,increment.version">
+        <mkdir dir="${build.directory}"/>
+        <mkdir dir="${tmp.directory}"/>
+
+        <property file="version.properties"/>
+
+        <copy todir="${tmp.directory}">
+            <fileset dir="${extension.name}">
+                <exclude name="CVS/**"/>
+				<exclude name="**/*.png"/>
+            </fileset>
+            <filterset>
+                <filter token="AUTHOR" value="${extension.author}"/>
+                <filter token="VERSION" value="${extension.version}.${build.number}"/>
+                <filter token="EXTENSION" value="${extension.name}"/>
+                <filter token="EXTENSION_FULL" value="${extension.full.name}"/>
+                <filter token="BASE_URL" value="${base.url}"/>
+                <filter token="EXTENSIONS_URL" value="${extensions.url}"/>
+                <filter token="DESCRIPTION" value="${extension.description}"/>
+            </filterset>
+        </copy>
+        <copy todir="${tmp.directory}">
+            <fileset dir="${extension.name}">
+				<include name="**/*.png"/>
+            </fileset>
+        </copy>
+
+        <mkdir dir="${build.directory}/chrome"/>
+        <zip destfile="${build.directory}/chrome/${extension.name}.jar" basedir="${tmp.directory}/chrome"/>
+        <zip destfile="${build.directory}/${extension.name}-${extension.version}.${build.number}.xpi">
+            <fileset dir="${tmp.directory}">
+                <exclude name="chrome/**"/>
+            </fileset>
+            <fileset dir="${build.directory}">
+            </fileset>
+        </zip>
+        <delete dir="${build.directory}/chrome"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.directory}" failonerror="true"/>
+        <delete dir="${tmp.directory}" failonerror="true"/>
+    </target>
+
+    <target name="increment.version">
+        <propertyfile file="version.properties" comment="Build version info">
+            <entry key="build.number" default="0" type="int" operation="+" value="1"/>
+        </propertyfile>
+    </target>
+</project>

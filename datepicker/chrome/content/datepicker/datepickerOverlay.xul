@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<overlay id="@EXTENSION@Overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <stringbundleset id="stringbundleset">
+        <stringbundle id="cal-bundle" src="chrome://@EXTENSION@/locale/cal.properties"/>
+    </stringbundleset>
+
+    <script type="application/x-javascript" src="chrome://@EXTENSION@/content/calendarLanguage.js" />
+    <script type="application/x-javascript" src="chrome://@EXTENSION@/content/@EXTENSION@Overlay.js" />
+
+    <statusbar id="status-bar">
+        <statusbarpanel id="statusbar-@EXTENSION@-display"
+            insertafter=""
+            hidden="false"
+            onclick="@EXTENSION@Var.showCalendar()"
+            style="min-width: 16px; white-space: nowrap; padding: 0px;" />
+    </statusbar>
+
+</overlay>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://@EXTENSION@/locale/prefs.dtd">
+
+<dialog id="@EXTENSION@Prefs"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	buttons="accept, cancel"
+	onload="init();"
+	ondialogaccept="return accept();"
+	title="&@EXTENSION@.prefs.title;"
+    flex="1">
+
+    <stringbundleset id="stringbundleset">
+        <stringbundle id="cal-bundle" src="chrome://@EXTENSION@/locale/cal.properties"/>
+        <stringbundle id="cal-pref-bundle" src="chrome://@EXTENSION@/locale/prefs.properties"/>
+    </stringbundleset>
+
+    <script type="application/x-javascript" src="chrome://@EXTENSION@/content/calendarLanguage.js" />
+    <script type="application/x-javascript" src="chrome://@EXTENSION@/content/calendarPreferenceLanguage.js" />
+    <script type="application/x-javascript" src="chrome://@EXTENSION@/content/preferenceUtils.js" />
+	<script type="application/x-javascript" src="chrome://@EXTENSION@/content/@EXTENSION@Prefs.js"/>
+
+	<label class="header" value="&@EXTENSION@.prefs.intro;" />
+
+	<separator class="thin"/>
+
+    <hbox>
+      <label value="&@EXTENSION@.prefs.weekStartLabel;" control="weekStart" />
+      <menulist id="weekStart" width="100" />
+    </hbox>
+    <hbox>
+      <label value="&@EXTENSION@.prefs.weekendLabel;"/>
+      <menulist id="weekend1" width="100" />
+      <menulist id="weekend2" width="100" />
+    </hbox>
+    <hbox>
+      <label value="&@EXTENSION@.prefs.showOtherMonthsLabel;"/>
+      <checkbox id="showOtherMonths" checked="true" />
+    </hbox>
+    <hbox>
+      <label value="&@EXTENSION@.prefs.yearRangeLabel;"/>
+      <textbox id="years1" size="4" maxlength="4" />
+      <textbox id="years2" size="4" maxlength="4" />
+    </hbox>
+    <hbox>
+      <label value="&@EXTENSION@.prefs.dateFormatLabel;"/>
+      <textbox id="dateFormat" maxlength="255" flex="1" />
+    </hbox>
+    <text value="&@EXTENSION@.prefs.dateFormatInfo;" style="font-size: 80%; color: #f00;"/>
+    <text value="@EXTENSIONS_URL@" style="font-size: 80%; color: #f00;" onclick="window.open('@EXTENSIONS_URL@'); window.close();"/>
+
+</dialog>
