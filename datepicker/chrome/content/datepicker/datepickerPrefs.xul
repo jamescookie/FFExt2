@@ -46,6 +46,10 @@
       <label value="&@EXTENSION@.prefs.dateFormatLabel;"/>
       <textbox id="dateFormat" maxlength="255" flex="1" />
     </hbox>
+    <hbox>
+      <label value="&@EXTENSION@.prefs.shortDateFormatLabel;"/>
+      <textbox id="shortDateFormat" maxlength="255" flex="1" />
+    </hbox>
     <text value="&@EXTENSION@.prefs.dateFormatInfo;" style="font-size: 80%; color: #f00;"/>
     <text value="@EXTENSIONS_URL@" style="font-size: 80%; color: #f00;" onclick="window.open('@EXTENSIONS_URL@'); window.close();"/>
 

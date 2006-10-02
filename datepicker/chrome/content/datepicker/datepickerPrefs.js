@@ -10,6 +10,7 @@ function init() {
     document.getElementById("years2").setAttribute("value", getIntegerPreferenceValue("years2", prefs, 2199));
     document.getElementById("showOtherMonths").setAttribute("checked", getBooleanPreferenceValue("showOtherMonths", prefs));
     document.getElementById("dateFormat").setAttribute("value", getCharacterPreferenceValue("dateFormat", prefs));
+    document.getElementById("shortDateFormat").setAttribute("value", getCharacterPreferenceValue("shortDateFormat", prefs));
 }
 
 function populateLists(listId, selected) {
@@ -59,5 +60,6 @@ function accept() {
     saveIntegerField("years2", prefs);
     saveBooleanField("showOtherMonths", prefs);
     saveCharacterField("dateFormat", prefs);
+    saveCharacterField("shortDateFormat", prefs);
 }
 

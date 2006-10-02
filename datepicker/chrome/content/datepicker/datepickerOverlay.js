@@ -9,11 +9,8 @@ var @EXTENSION@Var = {
     },
 
     refreshDate: function() {
-        var date = new Date();
-        var day = date.getDate();
-        var month = date.getMonth();
         @EXTENSION@Var.checkLanguageLoaded();
-        document.getElementById("statusbar-@EXTENSION@-display").label = day + " " + @EXTENSION@LanguageVar._SMN[month];
+        document.getElementById("statusbar-@EXTENSION@-display").label = new Date().print(getCharacterPreferenceValue("shortDateFormat", Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch), "%d %b"));
     },
 
     showCalendar: function() {

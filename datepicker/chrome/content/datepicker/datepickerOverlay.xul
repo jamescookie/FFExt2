@@ -9,6 +9,8 @@
 
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/calendarLanguage.js" />
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/@EXTENSION@Overlay.js" />
+    <script type="application/x-javascript" src="chrome://@EXTENSION@/content/preferenceUtils.js" />
+    <script type="application/x-javascript" src="chrome://@EXTENSION@/content/xulcalendar.js" />
 
     <statusbar id="status-bar">
         <statusbarpanel id="statusbar-@EXTENSION@-display"
