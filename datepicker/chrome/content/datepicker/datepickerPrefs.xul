@@ -45,6 +45,7 @@
     <hbox>
       <label value="&@EXTENSION@.prefs.dateFormatLabel;"/>
       <textbox id="dateFormat" maxlength="255" flex="1" />
+      <button id="help" label="?" onclick="alert('&@EXTENSION@.prefs.dateoptions;');" flex="1" style="width:20px" />
     </hbox>
     <hbox>
       <label value="&@EXTENSION@.prefs.shortDateFormatLabel;"/>

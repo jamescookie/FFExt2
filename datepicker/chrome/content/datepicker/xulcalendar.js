@@ -1,4 +1,4 @@
-Calendar = function (firstDayOfWeek, weekend) {
+var Calendar = function (firstDayOfWeek, weekend) {
 	// member variables
     this.firstDayOfWeek = firstDayOfWeek; // 0 for Sunday, 1 for Monday, etc.
     this.weekend = weekend; // This is the week-end days as an array of comma-separated numbers.  The numbers are from 0 to 6: 0 means Sunday, 1 means Monday, etc.
@@ -100,7 +100,7 @@ Calendar.getTargetElement = function(ev) {
 };
 
 Calendar.stopEvent = function(ev) {
-	ev || (ev = window.event);
+	if (!ev) ev = window.event;
     ev.preventDefault();
     ev.stopPropagation();
 	return false;
@@ -178,7 +178,7 @@ Calendar.tableMouseUp = function(ev) {
 		return false;
 	}
 	var target = Calendar.getTargetElement(ev);
-	ev || (ev = window.event);
+    if (!ev) ev = window.event;
 	Calendar.removeClass(el, "active");
 	if (target == el || target.parentNode == el) {
 		Calendar.cellClick(el, ev);
@@ -217,7 +217,7 @@ Calendar.tableMouseUp = function(ev) {
 Calendar.tableMouseOver = function (ev) {
 	var cal = Calendar._C;
 	if (!cal) {
-		return;
+		return null;
 	}
 	var el = cal.activeDiv;
 	var target = Calendar.getTargetElement(ev);
@@ -230,7 +230,7 @@ Calendar.tableMouseOver = function (ev) {
 		Calendar.removeClass(el, "hilite");
 		Calendar.removeClass(el.parentNode, "rowhilite");
 	}
-	ev || (ev = window.event);
+	if (!ev) ev = window.event;
 	if (el.navtype == 50 && target != el) {
 		var pos = Calendar.getAbsolutePos(el);
 		var w = el.offsetWidth;
@@ -247,7 +247,8 @@ Calendar.tableMouseOver = function (ev) {
 		var range = el._range;
 		var current = el._current;
 		var count = Math.floor(dx / 10) % range.length;
-		for (var i = range.length; --i >= 0;)
+        var i;
+        for (i = range.length; --i >= 0;)
 			if (range[i] == current)
 				break;
 		while (count-- > 0)
@@ -256,9 +257,7 @@ Calendar.tableMouseOver = function (ev) {
 					i = range.length - 1;
 			} else if ( ++i >= range.length )
 				i = 0;
-		var newval = range[i];
-		el.textContent = newval;
-
+		el.textContent = range[i];
 	}
 	var mon = Calendar.findMonth(target);
 	if (mon) {
@@ -296,7 +295,9 @@ Calendar.tableMouseOver = function (ev) {
 Calendar.tableMouseDown = function (ev) {
 	if (Calendar.getTargetElement(ev) == Calendar.getElement(ev)) {
 		return Calendar.stopEvent(ev);
-	}
+	} else {
+        return null;
+    }
 };
 
 Calendar.dayMouseDown = function(ev) {
@@ -455,11 +456,11 @@ Calendar.cellClick = function(el, ev) {
 			newdate = closing = true;
 	}
 	if (newdate) {
-		ev && cal.callHandler();
+		if(ev) cal.callHandler();
 	}
 	if (closing) {
 		Calendar.removeClass(el, "hilite");
-		ev && cal.callCloseHandler();
+		if(ev) cal.callCloseHandler();
 	}
 };
 
@@ -474,7 +475,6 @@ Calendar.cellClick = function(el, ev) {
  *  hidden).  Some properties need to be set before calling this function.
  */
 Calendar.prototype.create = function (_par) {
-	var parent = _par;
 	this.date = new Date();
 	var table = document.getElementById("tableCal");
 	this.table = table;
@@ -662,7 +662,7 @@ Calendar.prototype.callCloseHandler = function () {
 Calendar._checkCalendar = function(ev) {
 	var calendar = window._dynarch_popupCalendar;
 	if (!calendar) {
-		return false;
+		return null;
 	}
 	var el = Calendar.getTargetElement(ev);
 	for (; el != null && el != calendar.element; el = el.parentNode);
@@ -671,6 +671,7 @@ Calendar._checkCalendar = function(ev) {
 		window._dynarch_popupCalendar.callCloseHandler();
 		return Calendar.stopEvent(ev);
 	}
+    return null;
 };
 
 /** Customizes the date format. */
@@ -729,7 +730,8 @@ Date.parseDate = function(str, fmt) {
 	var d = 0;
 	var a = str.split(/\W+/);
 	var b = fmt.match(/%./g);
-	var i = 0, j = 0;
+	var i = 0;
+    var j = 0;
 	var hr = 0;
 	var min = 0;
 	for (i = 0; i < a.length; ++i) {
@@ -748,7 +750,7 @@ Date.parseDate = function(str, fmt) {
 		    case "%Y":
 		    case "%y":
 			y = parseInt(a[i], 10);
-			(y < 100) && (y += (y > 29) ? 1900 : 2000);
+			if (y < 100) y += (y > 29) ? 1900 : 2000;
 			break;
 
 		    case "%b":
@@ -802,7 +804,7 @@ Date.parseDate = function(str, fmt) {
 			m = a[i]-1;
 		} else if (parseInt(a[i], 10) > 31 && y == 0) {
 			y = parseInt(a[i], 10);
-			(y < 100) && (y += (y > 29) ? 1900 : 2000);
+			if (y < 100) y += (y > 29) ? 1900 : 2000;
 		} else if (d == 0) {
 			d = a[i];
 		}

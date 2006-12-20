@@ -61,5 +61,6 @@ function accept() {
     saveBooleanField("showOtherMonths", prefs);
     saveCharacterField("dateFormat", prefs);
     saveCharacterField("shortDateFormat", prefs);
+    return true;
 }
 
