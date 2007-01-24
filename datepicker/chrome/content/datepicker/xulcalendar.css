@@ -32,7 +32,7 @@
   border-left: 1px solid #fff;
 }
 
-.calendar .title { /* This holds the current "month, year" */
+.calendar .title { /* This holds the current "month - year" */
   font-weight: bold;
   padding: 1px;
   border: 1px solid #000;

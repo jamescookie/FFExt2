@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<!DOCTYPE dialog SYSTEM "chrome://@EXTENSION@/locale/cal.dtd">
 
 <overlay id="@EXTENSION@Overlay"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
@@ -12,11 +13,18 @@
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/preferenceUtils.js" />
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/xulcalendar.js" />
 
+	<popupset id="mainPopupSet">
+		<popup id="@EXTENSION@-contextmenu">
+			<menuitem id="ts-menu-settings" oncommand="@EXTENSION@Var.showOptions();" label="&@EXTENSION@.cal.options;"/>
+		</popup>
+	</popupset>
+
     <statusbar id="status-bar">
         <statusbarpanel id="statusbar-@EXTENSION@-display"
             insertafter=""
             hidden="false"
-            onclick="@EXTENSION@Var.showCalendar()"
+            onclick="@EXTENSION@Var.showCalendar(event)"
+            context="@EXTENSION@-contextmenu"
             style="min-width: 16px; white-space: nowrap; padding: 0px;" />
     </statusbar>
 

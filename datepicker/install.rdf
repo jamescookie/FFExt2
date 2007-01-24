@@ -4,7 +4,7 @@
 
 	<Description about="urn:mozilla:install-manifest">
 
-		<em:id>{A6A0B3F6-6D2D-4c55-96C1-7481BEA2EBF8}</em:id>
+		<em:id>{@GUID@}</em:id>
 		<em:name>@EXTENSION_FULL@</em:name>
 		<em:version>@VERSION@</em:version>
 		<em:description>@DESCRIPTION@</em:description>
@@ -26,7 +26,11 @@
 			<Description about="urn:mozilla:extension:file:@EXTENSION@.jar">
 				<em:package>content/@EXTENSION@/</em:package>
 				<em:skin>skin/classic/@EXTENSION@/</em:skin>
-				<em:locale>locale/en-UK/@EXTENSION@/</em:locale>
+				<em:locale>locale/en-GB/@EXTENSION@/</em:locale>
+				<em:locale>locale/en-US/@EXTENSION@/</em:locale>
+				<em:locale>locale/fr-FR/@EXTENSION@/</em:locale>
+				<em:locale>locale/it-IT/@EXTENSION@/</em:locale>
+				<em:locale>locale/pt-BR/@EXTENSION@/</em:locale>
 			</Description>
 		</em:file>
 
