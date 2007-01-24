@@ -1,0 +1,22 @@
+<!-- Options -->
+<!ENTITY @EXTENSION@.prefs.tab1 "Calendar">
+<!ENTITY @EXTENSION@.prefs.tab2 "Positioning">
+
+<!--tab 1-->
+<!ENTITY @EXTENSION@.prefs.title "@EXTENSION_FULL@ options">
+<!ENTITY @EXTENSION@.prefs.intro "Define your calendar options here">
+
+<!ENTITY @EXTENSION@.prefs.dateoptions "Format options:\n\n&#37;a\tabbreviated weekday name\n&#37;A\tfull weekday name\n&#37;b\tabbreviated month name\n&#37;B\tfull month name\n&#37;C\tcentury number\n&#37;d\tthe day of the month ( 00 .. 31 )\n&#37;e\tthe day of the month ( 0 .. 31 )\n&#37;H\thour ( 00 .. 23 )\n&#37;I\thour ( 01 .. 12 )\n&#37;j\tday of the year (000 .. 366 )\n&#37;k\thour ( 0 .. 23 )\n&#37;l\thour ( 1 .. 12 )\n&#37;m\tmonth ( 01 .. 12)\n&#37;M\tminute ( 00 .. 59)\n&#37;p\tPM or AM\n&#37;P\tpm or am\n&#37;S\tsecond ( 00 .. 59)\n&#37;s\tnumber of seconds since Epoch (since Jan 01 1970 00:00:00 UTC)\n&#37;t\ta tab character\n&#37;U\tthe week number\n&#37;u\tthe day of the week ( 1 .. 7, 1 = MON )\n&#37;w\tthe day of the week ( 0 .. 6, 0 = SUN )\n&#37;y\tyear without the century ( 00 .. 99 )\n&#37;Y\tyear including the century ( ex. 1972 )\n&#37;&#37;\ta literal &#37; character">
+
+<!ENTITY @EXTENSION@.prefs.weekStartLabel "Pick the day that the week starts on">
+<!ENTITY @EXTENSION@.prefs.weekendLabel "Weekend days are">
+<!ENTITY @EXTENSION@.prefs.yearRangeLabel "Years range between">
+<!ENTITY @EXTENSION@.prefs.dateFormatLabel "Format for selection is">
+<!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Format for today's date in status bar is">
+<!ENTITY @EXTENSION@.prefs.showOtherMonthsLabel "Show days from other months">
+<!ENTITY @EXTENSION@.prefs.dateFormatInfo "For more information on which parameters you can use in date format see:">
+
+<!--tab 2-->
+<!ENTITY @EXTENSION@.prefs.positioning "Choose your preferred status bar position:">
+<!ENTITY @EXTENSION@.prefs.before "Before">
+<!ENTITY @EXTENSION@.prefs.after "After">
