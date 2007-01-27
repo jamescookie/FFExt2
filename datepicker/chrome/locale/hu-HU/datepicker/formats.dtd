@@ -1,0 +1,27 @@
+<!ENTITY datepicker.formats.title "Date Picker/Calendar">
+<!ENTITY datepicker.formats.options "Formátum beállítások:">
+<!ENTITY datepicker.formats.opt1 "nap rövidített neve">
+<!ENTITY datepicker.formats.opt2 "nap teljes neve">
+<!ENTITY datepicker.formats.opt3 "hónap rövidített neve">
+<!ENTITY datepicker.formats.opt4 "hónap teljes neve">
+<!ENTITY datepicker.formats.opt5 "jelenlegi évszázad">
+<!ENTITY datepicker.formats.opt6 "hónap ( 00 .. 31 )">
+<!ENTITY datepicker.formats.opt7 "hónap ( 0 .. 31 )">
+<!ENTITY datepicker.formats.opt8 "óra ( 00 .. 23 )">
+<!ENTITY datepicker.formats.opt9 "óra ( 01 .. 12 )">
+<!ENTITY datepicker.formats.opt10 "az év elejétől eltelt napok száma ( 000 .. 366 )">
+<!ENTITY datepicker.formats.opt11 "óra ( 0 .. 23 )">
+<!ENTITY datepicker.formats.opt12 "óra ( 1 .. 12 )">
+<!ENTITY datepicker.formats.opt13 "hónap ( 01 .. 12 )">
+<!ENTITY datepicker.formats.opt14 "perc ( 00 .. 59 )">
+<!ENTITY datepicker.formats.opt15 "DE vagy DU">
+<!ENTITY datepicker.formats.opt16 "de vagy du">
+<!ENTITY datepicker.formats.opt17 "másodperc ( 00 .. 59 )">
+<!ENTITY datepicker.formats.opt18 "eltelt másodpercek 1970. január 1-től">
+<!ENTITY datepicker.formats.opt19 "tabulátor karakter">
+<!ENTITY datepicker.formats.opt20 "az év aktuális hetének száma">
+<!ENTITY datepicker.formats.opt21 "a hét napja ( 1 .. 7, 1 = hétfő )">
+<!ENTITY datepicker.formats.opt22 "a hét napja ( 0 .. 6, 0 = vasárnap )">
+<!ENTITY datepicker.formats.opt23 "az év évszázad nélkül ( 00 .. 99 )">
+<!ENTITY datepicker.formats.opt24 "az év évszázaddal ( pl. 1972 )">
+<!ENTITY datepicker.formats.opt25 "formátumváltó &#37; karakter">

@@ -1,0 +1,6 @@
+<!ENTITY @EXTENSION@.help.title "@EXTENSION_FULL@ help">
+<!ENTITY @EXTENSION@.help.written "Written by:">
+<!ENTITY @EXTENSION@.help.basedon "Based on work by:">
+<!ENTITY @EXTENSION@.help.selection "Date selection:">
+<!ENTITY @EXTENSION@.help.year "Use the &lt;&lt;, &gt;&gt; buttons to select year">
+<!ENTITY @EXTENSION@.help.month "Use the &lt;, &gt; buttons to select month">

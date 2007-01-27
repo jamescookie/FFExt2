@@ -1,0 +1,14 @@
+<!ENTITY datepicker.prefs.tab1 "月曆">
+<!ENTITY datepicker.prefs.tab2 "位置設定">
+<!ENTITY datepicker.prefs.title "Date Picker/Calendar 選項">
+<!ENTITY datepicker.prefs.intro "在此設定您的月曆選項">
+<!ENTITY datepicker.prefs.weekStartLabel "選擇每週的第一天">
+<!ENTITY datepicker.prefs.weekendLabel "週末為">
+<!ENTITY datepicker.prefs.yearRangeLabel "年份區間">
+<!ENTITY datepicker.prefs.dateFormatLabel "選取日期的格式為">
+<!ENTITY datepicker.prefs.shortDateFormatLabel "狀態列上今天日期的顯示格式">
+<!ENTITY datepicker.prefs.showOtherMonthsLabel "顯示其他月份的日期">
+<!ENTITY datepicker.prefs.dateFormatInfo "若需要更多日期格式中可用變數的說明，請參見：">
+<!ENTITY datepicker.prefs.positioning "選擇狀態列上的位置：">
+<!ENTITY datepicker.prefs.before "之前">
+<!ENTITY datepicker.prefs.after "之後">

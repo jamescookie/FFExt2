@@ -1,0 +1,6 @@
+<!ENTITY datepicker.help.title "Date Picker/Calendar 說明">
+<!ENTITY datepicker.help.written "作者：">
+<!ENTITY datepicker.help.basedon "Based on work by:">
+<!ENTITY datepicker.help.selection "日期選取">
+<!ENTITY datepicker.help.year "以 &lt;&lt;, &gt;&gt; 按鈕選擇年份">
+<!ENTITY datepicker.help.month "以 &lt;, &gt; 按鈕選擇月份">

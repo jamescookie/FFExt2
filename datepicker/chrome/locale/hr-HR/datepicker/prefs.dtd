@@ -1,0 +1,14 @@
+<!ENTITY datepicker.prefs.tab1 "Kalendar">
+<!ENTITY datepicker.prefs.tab2 "Smještanje">
+<!ENTITY datepicker.prefs.title "Date Picker/Calendar opcije">
+<!ENTITY datepicker.prefs.intro "Ovdje odredite opcije Vašeg kalendara">
+<!ENTITY datepicker.prefs.weekStartLabel "Odaberite dan s kojim počinje tjedan">
+<!ENTITY datepicker.prefs.weekendLabel "Dani vikenda su">
+<!ENTITY datepicker.prefs.yearRangeLabel "Opseg godina između">
+<!ENTITY datepicker.prefs.dateFormatLabel "Oblik za odabir je">
+<!ENTITY datepicker.prefs.shortDateFormatLabel "Oblik za današnji datum u statusnoj traci je">
+<!ENTITY datepicker.prefs.showOtherMonthsLabel "Prikaži dane iz drugih mjeseci">
+<!ENTITY datepicker.prefs.dateFormatInfo "Za više informacija, o tome koje parametre možete koristiti u datumu, pogledajte :">
+<!ENTITY datepicker.prefs.positioning "Odaberite Vašu preferiran smještaj u statusnoj traci:">
+<!ENTITY datepicker.prefs.before "Prije">
+<!ENTITY datepicker.prefs.after "Nakon">

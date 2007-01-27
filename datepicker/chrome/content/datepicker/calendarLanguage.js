@@ -6,6 +6,9 @@ var @EXTENSION@LanguageVar = {
         @EXTENSION@LanguageVar._SDN = calBundle.getString("listWeekdaysAbbr").split(",");
         @EXTENSION@LanguageVar._MN = calBundle.getString("listMonths").split(",");
         @EXTENSION@LanguageVar._SMN = calBundle.getString("listMonthsAbbr").split(",");
-        @EXTENSION@LanguageVar._HA = calBundle.getString("helpAbout");
+        @EXTENSION@LanguageVar._AML = calBundle.getString("anteMeridiemLower");
+        @EXTENSION@LanguageVar._PML = calBundle.getString("postMeridiemLower");
+        @EXTENSION@LanguageVar._AMU = calBundle.getString("anteMeridiemUpper");
+        @EXTENSION@LanguageVar._PMU = calBundle.getString("postMeridiemUpper");
     }
 }

@@ -1,0 +1,14 @@
+<!ENTITY datepicker.prefs.tab1 "Calendario">
+<!ENTITY datepicker.prefs.tab2 "Posición">
+<!ENTITY datepicker.prefs.title "Date Picker/Calendar - Opciones">
+<!ENTITY datepicker.prefs.intro "Defina las opciones de su calendario aquí">
+<!ENTITY datepicker.prefs.weekStartLabel "Elija el día de comienzo de las semanas">
+<!ENTITY datepicker.prefs.weekendLabel "Los días del fin de semana son">
+<!ENTITY datepicker.prefs.yearRangeLabel "Intervalo de años entre">
+<!ENTITY datepicker.prefs.dateFormatLabel "Formato para la selección">
+<!ENTITY datepicker.prefs.shortDateFormatLabel "Formato para la fecha actual en la barra de estado">
+<!ENTITY datepicker.prefs.showOtherMonthsLabel "Mostrar los días de otros meses">
+<!ENTITY datepicker.prefs.dateFormatInfo "Para más información sobre los parámteros que puede usar mire:">
+<!ENTITY datepicker.prefs.positioning "Seleccione su posición preferida en la barra de estado:">
+<!ENTITY datepicker.prefs.before "Antes">
+<!ENTITY datepicker.prefs.after "Después">

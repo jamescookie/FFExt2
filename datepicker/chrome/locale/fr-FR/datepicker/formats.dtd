@@ -1,0 +1,27 @@
+<!ENTITY datepicker.formats.title "Options pour le format des dates dans Date Picker/Calendar :">
+<!ENTITY datepicker.formats.options "Options du format des dates :">
+<!ENTITY datepicker.formats.opt1 "le nom abrégé du jour de la semaine ( Lun … Dim )">
+<!ENTITY datepicker.formats.opt2 "le nom complet du jour de la semaine ( Lundi, … )">
+<!ENTITY datepicker.formats.opt3 "le nom abrégé du mois ( Jan … Déc )">
+<!ENTITY datepicker.formats.opt4 "le nom complet du mois ( Janvier, … )">
+<!ENTITY datepicker.formats.opt5 "le siècle ( 20, 21, … )">
+<!ENTITY datepicker.formats.opt6 "le jour du mois ( 01 … 31 )">
+<!ENTITY datepicker.formats.opt7 "le jour du mois sans le zéro pour les dizaines ( 1 … 31 )">
+<!ENTITY datepicker.formats.opt8 "l&apos;heure ( 00 … 23 )">
+<!ENTITY datepicker.formats.opt9 "l&apos;heure ( 01 … 12 )">
+<!ENTITY datepicker.formats.opt10 "le quantième du jour de l&apos;année ( 000 … 366 )">
+<!ENTITY datepicker.formats.opt11 "l&apos;heure sans le zéro pour les dizaines ( 0 … 23 )">
+<!ENTITY datepicker.formats.opt12 "l&apos;heure sans le zéro pour les dizaines ( 1 … 12 )">
+<!ENTITY datepicker.formats.opt13 "le mois ( 01 … 12 )">
+<!ENTITY datepicker.formats.opt14 "les minutes ( 00 … 59 )">
+<!ENTITY datepicker.formats.opt15 "AM ou PM">
+<!ENTITY datepicker.formats.opt16 "am ou pm">
+<!ENTITY datepicker.formats.opt17 "les secondes ( 00 … 59 )">
+<!ENTITY datepicker.formats.opt18 "le nombre de secondes depuis epoch ( le 1er Janvier 1970 00:00:00 UTC pour Unix)">
+<!ENTITY datepicker.formats.opt19 "le caractère de tabulation">
+<!ENTITY datepicker.formats.opt20 "le numéro de la semaine ( 01 … 53 )">
+<!ENTITY datepicker.formats.opt21 "le jour de la semaine ( 1 … 7 , 1 = Lundi )">
+<!ENTITY datepicker.formats.opt22 "le jour de la semaine ( 0 … 6 , 0 = Dimanche )">
+<!ENTITY datepicker.formats.opt23 "l&apos;année sur 2 digits ( 00 … 99 )">
+<!ENTITY datepicker.formats.opt24 "l&apos;année incluant le siècle ( ex. 1972 )">
+<!ENTITY datepicker.formats.opt25 "le caractère pour-cent : &#37;">

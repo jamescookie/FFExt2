@@ -1,0 +1,6 @@
+<!ENTITY datepicker.help.title "Aide de Date Picker/Calendar">
+<!ENTITY datepicker.help.written "Écrite par :">
+<!ENTITY datepicker.help.basedon "D&apos;après un travail de :">
+<!ENTITY datepicker.help.selection "Sélection de la date :">
+<!ENTITY datepicker.help.year "Utiliser les boutons &lt;&lt;, &gt;&gt; pour sélectionner l&apos;année">
+<!ENTITY datepicker.help.month "Utiliser les boutons &lt;, &gt; pour sélectionner le mois">

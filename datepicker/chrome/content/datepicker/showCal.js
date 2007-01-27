@@ -7,6 +7,7 @@ function init() {
     cal.setRange(getIntegerPreferenceValue("years1", prefs, 1900), getIntegerPreferenceValue("years2", prefs, 2199));
     cal.setDateFormat(getCharacterPreferenceValue("dateFormat", prefs, "%d %B %Y"));
     cal.create(document.getElementById("calendarDiv"));
+    cal.callHandler();
 }
 
 function getIntegerPreferenceValue(fieldName, prefs, defaultValue) {

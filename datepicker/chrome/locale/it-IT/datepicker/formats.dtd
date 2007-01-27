@@ -1,0 +1,27 @@
+<!ENTITY datepicker.formats.title "Opzioni per il formato di Date Picker/Calendar">
+<!ENTITY datepicker.formats.options "Opzioni per il formato">
+<!ENTITY datepicker.formats.opt1 "nome abbreviato dei giorni della settimana">
+<!ENTITY datepicker.formats.opt2 "nome completo dei giorni della settimana">
+<!ENTITY datepicker.formats.opt3 "nome abbreviato dei mesi">
+<!ENTITY datepicker.formats.opt4 "nome completo dei mesi">
+<!ENTITY datepicker.formats.opt5 "numero del secolo">
+<!ENTITY datepicker.formats.opt6 "giorno del mese ( 00 .. 31 )">
+<!ENTITY datepicker.formats.opt7 "giorno del mese ( 0 .. 31 )">
+<!ENTITY datepicker.formats.opt8 "ora ( 00 .. 23 )">
+<!ENTITY datepicker.formats.opt9 "ora ( 01 .. 12 )">
+<!ENTITY datepicker.formats.opt10 "giorno dell&apos;anno (000 .. 366 )">
+<!ENTITY datepicker.formats.opt11 "ora ( 0 .. 23 )">
+<!ENTITY datepicker.formats.opt12 "ora ( 1 .. 12 )">
+<!ENTITY datepicker.formats.opt13 "mese ( 01 .. 12)">
+<!ENTITY datepicker.formats.opt14 "minuto ( 00 .. 59)">
+<!ENTITY datepicker.formats.opt15 "AM o PM">
+<!ENTITY datepicker.formats.opt16 "am o PM">
+<!ENTITY datepicker.formats.opt17 "secondo ( 00 .. 59)">
+<!ENTITY datepicker.formats.opt18 "numero di secondi a partire dalle 00:00:00 UTC del 1° Gennaio 1970">
+<!ENTITY datepicker.formats.opt19 "tab orizzontale">
+<!ENTITY datepicker.formats.opt20 "numero della settimana">
+<!ENTITY datepicker.formats.opt21 "giorno della settimana ( 1 .. 7, 1 = LUN )">
+<!ENTITY datepicker.formats.opt22 "giorno della settimana ( 0 .. 6, 0 = DOM )">
+<!ENTITY datepicker.formats.opt23 "ultime due cifre dell&apos;anno ( 00 .. 99 )">
+<!ENTITY datepicker.formats.opt24 "anno ( es. 1972 )">
+<!ENTITY datepicker.formats.opt25 "carattere &#37;">

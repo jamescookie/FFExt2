@@ -1,3 +1,11 @@
+/*
+ * This script was orginally developed by Dynarch.com.  Visit them at www.dynarch.com.
+ * It was modified by James Cook (www.jamescookie.com) to work as a Firefox extension.
+ *
+ * This script is distributed under the GNU Lesser General Public License.
+ * Read the entire license text here: http://www.gnu.org/licenses/lgpl.html
+ */
+
 var Calendar = function (firstDayOfWeek, weekend) {
 	// member variables
     this.firstDayOfWeek = firstDayOfWeek; // 0 for Sunday, 1 for Monday, etc.
@@ -15,9 +23,7 @@ var Calendar = function (firstDayOfWeek, weekend) {
 	this.firstdayname = null;
 	// Combo boxes
 	this.hilitedMonth = null;
-	this.activeMonth = null;
 	this.hilitedYear = null;
-	this.activeYear = null;
 	// Information
 	this.dateClicked = false;
 };
@@ -400,8 +406,8 @@ Calendar.cellClick = function(el, ev) {
 		switch (el.navtype) {
 		    case 400:
 			Calendar.removeClass(el, "hilite");
-			alert(@EXTENSION@LanguageVar._HA);
-			return;
+            window.openDialog('chrome://@EXTENSION@/content/@EXTENSION@Help.xul');
+            return;
 		    case -2:
 			if (year > cal.minYear) {
 				date.setFullYear(year - 1);
@@ -564,7 +570,6 @@ Calendar.prototype._init = function (firstDayOfWeek, date) {
 	date.setDate(-day1);
 	date.setDate(date.getDate() + 1);
 	var row = document.getElementById("dayrow1");
-    var MN = @EXTENSION@LanguageVar._SMN[month];
 	var weekend = this.weekend;
 	for (var i = 0; i < 6; ++i, row = row.nextSibling) {
 		var cell = row.firstChild;
@@ -610,7 +615,7 @@ Calendar.prototype._init = function (firstDayOfWeek, date) {
 		if (!(hasdays || this.showsOtherMonths))
 			row.setAttribute("class", "emptyrow");
     }
-	this.title.value = @EXTENSION@LanguageVar._MN[month] + ", " + year;
+	this.title.value = @EXTENSION@LanguageVar._MN[month] + " - " + year;
 	this.table.style.visibility = "visible";
 };
 
@@ -654,24 +659,6 @@ Calendar.prototype.callHandler = function () {
 /** Calls the second user handler (closeHandler). */
 Calendar.prototype.callCloseHandler = function () {
 
-};
-
-// This gets called when the user presses a mouse button anywhere in the
-// document, if the calendar is shown.  If the click was outside the open
-// calendar this function closes it.
-Calendar._checkCalendar = function(ev) {
-	var calendar = window._dynarch_popupCalendar;
-	if (!calendar) {
-		return null;
-	}
-	var el = Calendar.getTargetElement(ev);
-	for (; el != null && el != calendar.element; el = el.parentNode);
-	if (el == null) {
-		// calls closeHandler which should hide the calendar.
-		window._dynarch_popupCalendar.callCloseHandler();
-		return Calendar.stopEvent(ev);
-	}
-    return null;
 };
 
 /** Customizes the date format. */
@@ -882,9 +869,9 @@ Date.prototype.print = function (str) {
 		ir = 12;
 	var min = this.getMinutes();
 	var sec = this.getSeconds();
-	s["%a"] = @EXTENSION@LanguageVar._SDN[w]; // abbreviated weekday name [FIXME: I18N]
+	s["%a"] = @EXTENSION@LanguageVar._SDN[w]; // abbreviated weekday name
 	s["%A"] = @EXTENSION@LanguageVar._DN[w]; // full weekday name
-	s["%b"] = @EXTENSION@LanguageVar._SMN[m]; // abbreviated month name [FIXME: I18N]
+	s["%b"] = @EXTENSION@LanguageVar._SMN[m]; // abbreviated month name
 	s["%B"] = @EXTENSION@LanguageVar._MN[m]; // full month name
 	// FIXME: %c : preferred date and time representation for the current locale
 	s["%C"] = 1 + Math.floor(y / 100); // the century number
@@ -900,8 +887,8 @@ Date.prototype.print = function (str) {
 	s["%m"] = (m < 9) ? ("0" + (1+m)) : (1+m); // month, range 01 to 12
 	s["%M"] = (min < 10) ? ("0" + min) : min; // minute, range 00 to 59
 	s["%n"] = "\n";		// a newline character
-	s["%p"] = pm ? "PM" : "AM";
-	s["%P"] = pm ? "pm" : "am";
+	s["%p"] = pm ? @EXTENSION@LanguageVar._PMU : @EXTENSION@LanguageVar._AMU;
+	s["%P"] = pm ? @EXTENSION@LanguageVar._PML : @EXTENSION@LanguageVar._AML;
 	// FIXME: %r : the time in am/pm notation %I:%M:%S %p
 	// FIXME: %R : the time in 24-hour notation %H:%M
 	s["%s"] = Math.floor(this.getTime() / 1000);
@@ -932,7 +919,3 @@ Date.prototype.setFullYear = function(y) {
 };
 
 // END: DATE OBJECT PATCHES
-
-
-// global object that remembers the calendar
-window._dynarch_popupCalendar = null;

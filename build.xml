@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <project name="firefox extension" default="build">
 
+    <property name="extension.guid" value="A6A0B3F6-6D2D-4c55-96C1-7481BEA2EBF8" />
     <property name="extension.name" value="datepicker" />
     <property name="extension.full.name" value="Date Picker/Calendar" />
+    <property name="extension.short.name" value="${extension.full.name}" />
     <property name="extension.author" value="James Cook" />
-    <property name="extension.version" value="0.5" />
+    <property name="extension.version" value="1.1" />
     <property name="base.url" value="http://www.jamescookie.com" />
     <property name="extensions.url" value="${base.url}/extensions/" />
     <property name="extension.description" value="Quick popup allowing you to view a calendar/pick a date." />
@@ -27,10 +29,12 @@
                 <filter token="AUTHOR" value="${extension.author}"/>
                 <filter token="VERSION" value="${extension.version}.${build.number}"/>
                 <filter token="EXTENSION" value="${extension.name}"/>
+                <filter token="EXTENSION_SHORT_NAME" value="${extension.short.name}"/>
                 <filter token="EXTENSION_FULL" value="${extension.full.name}"/>
                 <filter token="BASE_URL" value="${base.url}"/>
                 <filter token="EXTENSIONS_URL" value="${extensions.url}"/>
                 <filter token="DESCRIPTION" value="${extension.description}"/>
+                <filter token="GUID" value="${extension.guid}"/>
             </filterset>
         </copy>
         <copy todir="${tmp.directory}">

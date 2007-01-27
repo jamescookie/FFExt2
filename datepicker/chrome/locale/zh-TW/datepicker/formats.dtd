@@ -1,0 +1,27 @@
+<!ENTITY datepicker.formats.title "Date Picker/Calendar 格式選項">
+<!ENTITY datepicker.formats.options "格式選項：">
+<!ENTITY datepicker.formats.opt1 "星期 (縮寫)">
+<!ENTITY datepicker.formats.opt2 "星期">
+<!ENTITY datepicker.formats.opt3 "月份 (縮寫)">
+<!ENTITY datepicker.formats.opt4 "月份">
+<!ENTITY datepicker.formats.opt5 "世紀">
+<!ENTITY datepicker.formats.opt6 "日 ( 00 .. 31 )">
+<!ENTITY datepicker.formats.opt7 "日 ( 0 .. 31 )">
+<!ENTITY datepicker.formats.opt8 "時 ( 00 .. 23 )">
+<!ENTITY datepicker.formats.opt9 "時 ( 01 .. 12 )">
+<!ENTITY datepicker.formats.opt10 "日 (000 .. 366 )">
+<!ENTITY datepicker.formats.opt11 "時 ( 0 .. 23 )">
+<!ENTITY datepicker.formats.opt12 "時 ( 1 .. 12 )">
+<!ENTITY datepicker.formats.opt13 "月 ( 01 .. 12)">
+<!ENTITY datepicker.formats.opt14 "分 ( 00 .. 59)">
+<!ENTITY datepicker.formats.opt15 "PM 或 AM">
+<!ENTITY datepicker.formats.opt16 "pm 或 am">
+<!ENTITY datepicker.formats.opt17 "秒 ( 00 .. 59)">
+<!ENTITY datepicker.formats.opt18 "Unix Time 秒數 (始於1970/01/01 00:00:00 UTC)">
+<!ENTITY datepicker.formats.opt19 "一個定位字元 (tab character)">
+<!ENTITY datepicker.formats.opt20 "週次">
+<!ENTITY datepicker.formats.opt21 "星期 ( 1 .. 7, 1 = MON )">
+<!ENTITY datepicker.formats.opt22 "星期 ( 0 .. 6, 0 = SUN )">
+<!ENTITY datepicker.formats.opt23 "二位年份 ( 00 .. 99 )">
+<!ENTITY datepicker.formats.opt24 "四位年份 ( ex. 1972 )">
+<!ENTITY datepicker.formats.opt25 "一個 &#37; 符號">

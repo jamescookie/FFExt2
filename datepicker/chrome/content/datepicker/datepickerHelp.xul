@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://@EXTENSION@/locale/help.dtd">
+
+<dialog id="@EXTENSION@Prefs"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	buttons="accept"
+	ondialogaccept="window.close();"
+	title="&@EXTENSION@.help.title;"
+    flex="1">
+
+<groupbox align="center" orient="horizontal">
+    <vbox>
+        <text value="@EXTENSION_FULL@" style="font-weight: bold; font-size: large;"/>
+        <separator class="thin"/>
+        <text value="&@EXTENSION@.help.written;"/>
+        <hbox>
+            <text value="@AUTHOR@ ("/>
+            <text value="@EXTENSIONS_URL@" style="color:red; cursor:pointer" onclick="window.open('@EXTENSIONS_URL@');"/>
+            <text value=")"/>
+        </hbox>
+        <separator class="thin"/>
+        <text value="&@EXTENSION@.help.basedon;"/>
+        <hbox>
+            <text value="Mihai Bazon ("/>
+            <text value="http://www.dynarch.com/projects/calendar/" style="color:red; cursor:pointer" onclick="window.open('http://www.dynarch.com/projects/calendar/');"/>
+            <text value=")"/>
+        </hbox>
+        <separator class="thin"/>
+        <text value="&@EXTENSION@.help.selection;"/>
+        <text value=" - &@EXTENSION@.help.year;"/>
+        <text value=" - &@EXTENSION@.help.month;"/>
+    </vbox>
+    <spring flex="1"/>
+</groupbox>
+</dialog>

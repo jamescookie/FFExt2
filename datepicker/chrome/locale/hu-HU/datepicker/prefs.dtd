@@ -1,0 +1,14 @@
+<!ENTITY datepicker.prefs.tab1 "Naptár">
+<!ENTITY datepicker.prefs.tab2 "Elhelyezés">
+<!ENTITY datepicker.prefs.title "Date Picker/Calendar beállítások">
+<!ENTITY datepicker.prefs.intro "Naptár beállítása:">
+<!ENTITY datepicker.prefs.weekStartLabel "A hét első napja">
+<!ENTITY datepicker.prefs.weekendLabel "A hétvége napjai">
+<!ENTITY datepicker.prefs.yearRangeLabel "Évszámok terjedelme">
+<!ENTITY datepicker.prefs.dateFormatLabel "A dátum formátuma">
+<!ENTITY datepicker.prefs.shortDateFormatLabel "A mai nap megjelenítési formátuma az állapotsorban">
+<!ENTITY datepicker.prefs.showOtherMonthsLabel "Napok megjelenítése az előző és a következő hónapból is">
+<!ENTITY datepicker.prefs.dateFormatInfo "A dátum beállításainak további paramétereiről információt tudhat meg:">
+<!ENTITY datepicker.prefs.positioning "Allítsa be az állapotsorban levő ikon pozícióját:">
+<!ENTITY datepicker.prefs.before "Előtte">
+<!ENTITY datepicker.prefs.after "Utána">

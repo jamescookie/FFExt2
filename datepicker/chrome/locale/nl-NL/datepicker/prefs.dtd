@@ -1,0 +1,14 @@
+<!ENTITY datepicker.prefs.tab1 "Kalender">
+<!ENTITY datepicker.prefs.tab2 "Positie">
+<!ENTITY datepicker.prefs.title "Date Picker/Calendar opties">
+<!ENTITY datepicker.prefs.intro "Definieer hier uw kalender-opties">
+<!ENTITY datepicker.prefs.weekStartLabel "Kies de dag waarop de week start">
+<!ENTITY datepicker.prefs.weekendLabel "De weekenddagen zijn">
+<!ENTITY datepicker.prefs.yearRangeLabel "Jaren variëren tussen">
+<!ENTITY datepicker.prefs.dateFormatLabel "De opmaak voor de selectie is">
+<!ENTITY datepicker.prefs.shortDateFormatLabel "De opmaak voor de datum van vandaag in de statusbalk is">
+<!ENTITY datepicker.prefs.showOtherMonthsLabel "Dagen van andere maanden tonen">
+<!ENTITY datepicker.prefs.dateFormatInfo "Kijk voor meer informatie over welke parameters u voor de datum opmaak kunt gebruiken op:">
+<!ENTITY datepicker.prefs.positioning "Kies uw voorkeurspositie op de statusbalk:">
+<!ENTITY datepicker.prefs.before "Voor">
+<!ENTITY datepicker.prefs.after "Na">

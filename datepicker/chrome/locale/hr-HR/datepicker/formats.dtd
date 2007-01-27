@@ -1,0 +1,27 @@
+<!ENTITY datepicker.formats.title "Date Picker/Calendar opcije oblikovanja">
+<!ENTITY datepicker.formats.options "Opcije oblikovanja:">
+<!ENTITY datepicker.formats.opt1 "skraćena imena radnih dana">
+<!ENTITY datepicker.formats.opt2 "puna imena radnih dana">
+<!ENTITY datepicker.formats.opt3 "skraćena imena mjeseci">
+<!ENTITY datepicker.formats.opt4 "puna imena mjeseci">
+<!ENTITY datepicker.formats.opt5 "broj stoljeća">
+<!ENTITY datepicker.formats.opt6 "dan u mjesecu ( 00 .. 31 )">
+<!ENTITY datepicker.formats.opt7 "dan u mjesecu ( 0 .. 31 )">
+<!ENTITY datepicker.formats.opt8 "sat ( 00 .. 23 )">
+<!ENTITY datepicker.formats.opt9 "sat ( 01 .. 12 )">
+<!ENTITY datepicker.formats.opt10 "dan u godini (000 .. 366 )">
+<!ENTITY datepicker.formats.opt11 "sat ( 0 .. 23 )">
+<!ENTITY datepicker.formats.opt12 "sat ( 1 .. 12 )">
+<!ENTITY datepicker.formats.opt13 "mjesec ( 01 .. 12)">
+<!ENTITY datepicker.formats.opt14 "minuta ( 00 .. 59)">
+<!ENTITY datepicker.formats.opt15 "PM ili AM">
+<!ENTITY datepicker.formats.opt16 "pm ili am">
+<!ENTITY datepicker.formats.opt17 "sekunda ( 00 .. 59)">
+<!ENTITY datepicker.formats.opt18 "broj sekundi od doba (od Sij 01 1970 00:00:00 GMT)">
+<!ENTITY datepicker.formats.opt19 "znak kartice">
+<!ENTITY datepicker.formats.opt20 "broj tjedna">
+<!ENTITY datepicker.formats.opt21 "dan tjedna ( 1 .. 7, 1 = PON)">
+<!ENTITY datepicker.formats.opt22 "dan tjedna ( 0 .. 6, 0 = NED )">
+<!ENTITY datepicker.formats.opt23 "godina bez stoljeća ( 00 .. 99 )">
+<!ENTITY datepicker.formats.opt24 "godina uključujući i stoljeće ( npr. 1972 )">
+<!ENTITY datepicker.formats.opt25 "doslovni znak &#37;">
