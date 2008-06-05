@@ -1,27 +1,27 @@
-<!ENTITY datepicker.formats.title "Date Picker/Calendar - Opciones de formato">
-<!ENTITY datepicker.formats.options "Opciones de formato:">
-<!ENTITY datepicker.formats.opt1 "nombre de la semana abreviado">
-<!ENTITY datepicker.formats.opt2 "nombre de la semana completo">
-<!ENTITY datepicker.formats.opt3 "nombre del mes abreviado">
-<!ENTITY datepicker.formats.opt4 "nombre del mes completo">
-<!ENTITY datepicker.formats.opt5 "número del siglo">
-<!ENTITY datepicker.formats.opt6 "día del mes ( 00 .. 31 )">
-<!ENTITY datepicker.formats.opt7 "día del mes ( 0 .. 31 )">
-<!ENTITY datepicker.formats.opt8 "hora ( 00 .. 23 )">
-<!ENTITY datepicker.formats.opt9 "hora ( 01 .. 12 )">
-<!ENTITY datepicker.formats.opt10 "día del año (000 .. 366 )">
-<!ENTITY datepicker.formats.opt11 "hora ( 0 .. 23 )">
-<!ENTITY datepicker.formats.opt12 "hora ( 1 .. 12 )">
-<!ENTITY datepicker.formats.opt13 "mes ( 01 .. 12)">
-<!ENTITY datepicker.formats.opt14 "minuto ( 00 .. 59)">
-<!ENTITY datepicker.formats.opt15 "PM o AM">
-<!ENTITY datepicker.formats.opt16 "pm o am">
-<!ENTITY datepicker.formats.opt17 "segundo ( 00 .. 59)">
-<!ENTITY datepicker.formats.opt18 "número de segundos desde Epoch (desde 01 Ene 1970 00:00:00 UTC)">
-<!ENTITY datepicker.formats.opt19 "caracter tabulador">
-<!ENTITY datepicker.formats.opt20 "número de la semana">
-<!ENTITY datepicker.formats.opt21 "día de la semana ( 1 .. 7, 1 = LUN )">
-<!ENTITY datepicker.formats.opt22 "día de la semana ( 0 .. 6, 0 = DOM )">
-<!ENTITY datepicker.formats.opt23 "año sin el siglo ( 00 .. 99 )">
-<!ENTITY datepicker.formats.opt24 "año incluyendo el siglo ( ej. 1972 )">
-<!ENTITY datepicker.formats.opt25 "un caracter &#37;">
+<!ENTITY @EXTENSION@.formats.title "Date Picker/Calendar - Opciones de formato">
+<!ENTITY @EXTENSION@.formats.options "Opciones de formato:">
+<!ENTITY @EXTENSION@.formats.opt1 "nombre de la semana abreviado">
+<!ENTITY @EXTENSION@.formats.opt2 "nombre de la semana completo">
+<!ENTITY @EXTENSION@.formats.opt3 "nombre del mes abreviado">
+<!ENTITY @EXTENSION@.formats.opt4 "nombre del mes completo">
+<!ENTITY @EXTENSION@.formats.opt5 "número del siglo">
+<!ENTITY @EXTENSION@.formats.opt6 "día del mes ( 00 .. 31 )">
+<!ENTITY @EXTENSION@.formats.opt7 "día del mes ( 0 .. 31 )">
+<!ENTITY @EXTENSION@.formats.opt8 "hora ( 00 .. 23 )">
+<!ENTITY @EXTENSION@.formats.opt9 "hora ( 01 .. 12 )">
+<!ENTITY @EXTENSION@.formats.opt10 "día del año (000 .. 366 )">
+<!ENTITY @EXTENSION@.formats.opt11 "hora ( 0 .. 23 )">
+<!ENTITY @EXTENSION@.formats.opt12 "hora ( 1 .. 12 )">
+<!ENTITY @EXTENSION@.formats.opt13 "mes ( 01 .. 12)">
+<!ENTITY @EXTENSION@.formats.opt14 "minuto ( 00 .. 59)">
+<!ENTITY @EXTENSION@.formats.opt15 "PM o AM">
+<!ENTITY @EXTENSION@.formats.opt16 "pm o am">
+<!ENTITY @EXTENSION@.formats.opt17 "segundo ( 00 .. 59)">
+<!ENTITY @EXTENSION@.formats.opt18 "número de segundos desde Epoch (desde 01 Ene 1970 00:00:00 UTC)">
+<!ENTITY @EXTENSION@.formats.opt19 "caracter tabulador">
+<!ENTITY @EXTENSION@.formats.opt20 "número de la semana">
+<!ENTITY @EXTENSION@.formats.opt21 "día de la semana ( 1 .. 7, 1 = LUN )">
+<!ENTITY @EXTENSION@.formats.opt22 "día de la semana ( 0 .. 6, 0 = DOM )">
+<!ENTITY @EXTENSION@.formats.opt23 "año sin el siglo ( 00 .. 99 )">
+<!ENTITY @EXTENSION@.formats.opt24 "año incluyendo el siglo ( ej. 1972 )">
+<!ENTITY @EXTENSION@.formats.opt25 "un caracter &#37;">

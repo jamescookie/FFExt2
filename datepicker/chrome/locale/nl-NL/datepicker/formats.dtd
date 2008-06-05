@@ -1,27 +1,27 @@
-<!ENTITY datepicker.formats.title "Date Picker/Calendar opmaakopties">
-<!ENTITY datepicker.formats.options "Opmaakopties:">
-<!ENTITY datepicker.formats.opt1 "afgekorte dagbenaming">
-<!ENTITY datepicker.formats.opt2 "volledige dagbenaming">
-<!ENTITY datepicker.formats.opt3 "afgekorte maandbenaming">
-<!ENTITY datepicker.formats.opt4 "volledige maandbenaming">
-<!ENTITY datepicker.formats.opt5 "eeuwnummer">
-<!ENTITY datepicker.formats.opt6 "dag van de maand ( 00 .. 31 )">
-<!ENTITY datepicker.formats.opt7 "dag van de maand ( 0 .. 31 )">
-<!ENTITY datepicker.formats.opt8 "uur ( 00 .. 23 )">
-<!ENTITY datepicker.formats.opt9 "uur ( 01 .. 12 )">
-<!ENTITY datepicker.formats.opt10 "dag van het jaar (000 .. 366 )">
-<!ENTITY datepicker.formats.opt11 "uur ( 0 .. 23 )">
-<!ENTITY datepicker.formats.opt12 "uur ( 1 .. 12 )">
-<!ENTITY datepicker.formats.opt13 "maand ( 01 .. 12)">
-<!ENTITY datepicker.formats.opt14 "minuut ( 00 .. 59)">
-<!ENTITY datepicker.formats.opt15 "NM of VM">
-<!ENTITY datepicker.formats.opt16 "nm of vm">
-<!ENTITY datepicker.formats.opt17 "seconden ( 00 .. 59)">
-<!ENTITY datepicker.formats.opt18 "aanta; seconden sinds Epoch (sinds 01 Jan 1970 00:00:00 UTC)">
-<!ENTITY datepicker.formats.opt19 "een tabulatiekarakter">
-<!ENTITY datepicker.formats.opt20 "het weeknummer">
-<!ENTITY datepicker.formats.opt21 "dag van de week ( 1 .. 7, 1 = MAA )">
-<!ENTITY datepicker.formats.opt22 "dag van de week ( 0 .. 6, 0 = ZON )">
-<!ENTITY datepicker.formats.opt23 "jaar zonder eeuwaanduiding ( 00 .. 99 )">
-<!ENTITY datepicker.formats.opt24 "jaar met eeuwaanduiding ( ex. 1972 )">
-<!ENTITY datepicker.formats.opt25 "een letterlijk &#37; karakter">
+<!ENTITY @EXTENSION@.formats.title "Date Picker/Calendar opmaakopties">
+<!ENTITY @EXTENSION@.formats.options "Opmaakopties:">
+<!ENTITY @EXTENSION@.formats.opt1 "afgekorte dagbenaming">
+<!ENTITY @EXTENSION@.formats.opt2 "volledige dagbenaming">
+<!ENTITY @EXTENSION@.formats.opt3 "afgekorte maandbenaming">
+<!ENTITY @EXTENSION@.formats.opt4 "volledige maandbenaming">
+<!ENTITY @EXTENSION@.formats.opt5 "eeuwnummer">
+<!ENTITY @EXTENSION@.formats.opt6 "dag van de maand (00 .. 31)">
+<!ENTITY @EXTENSION@.formats.opt7 "dag van de maand (0 .. 31)">
+<!ENTITY @EXTENSION@.formats.opt8 "uur (00 .. 23)">
+<!ENTITY @EXTENSION@.formats.opt9 "uur ( 01 .. 12 )">
+<!ENTITY @EXTENSION@.formats.opt10 "dag van het jaar (000 .. 366)">
+<!ENTITY @EXTENSION@.formats.opt11 "uur (0 .. 23)">
+<!ENTITY @EXTENSION@.formats.opt12 "uur (1 .. 12)">
+<!ENTITY @EXTENSION@.formats.opt13 "maand (01 .. 12)">
+<!ENTITY @EXTENSION@.formats.opt14 "minuut (00 .. 59)">
+<!ENTITY @EXTENSION@.formats.opt15 "NM of VM">
+<!ENTITY @EXTENSION@.formats.opt16 "nm of vm">
+<!ENTITY @EXTENSION@.formats.opt17 "seconden (00 .. 59)">
+<!ENTITY @EXTENSION@.formats.opt18 "aantal seconden sinds Epoch (sinds 01 Jan 1970 00:00:00 UTC)">
+<!ENTITY @EXTENSION@.formats.opt19 "een tabulatiekarakter">
+<!ENTITY @EXTENSION@.formats.opt20 "het weeknummer">
+<!ENTITY @EXTENSION@.formats.opt21 "dag van de week (1 .. 7, 1 = MAA)">
+<!ENTITY @EXTENSION@.formats.opt22 "dag van de week (0 .. 6, 0 = ZON)">
+<!ENTITY @EXTENSION@.formats.opt23 "jaar zonder eeuwaanduiding (00 .. 99)">
+<!ENTITY @EXTENSION@.formats.opt24 "jaar met eeuwaanduiding (bijv. 1972)">
+<!ENTITY @EXTENSION@.formats.opt25 "een letterlijk &#37; karakter">

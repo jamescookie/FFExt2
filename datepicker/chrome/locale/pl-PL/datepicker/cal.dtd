@@ -1,0 +1,3 @@
+<!ENTITY @EXTENSION@.cal.title "Kalendarz">
+<!ENTITY @EXTENSION@.cal.today "Dzisiaj">
+<!ENTITY @EXTENSION@.cal.options "Ustawienia">

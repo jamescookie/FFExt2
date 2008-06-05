@@ -1,14 +1,14 @@
-<!ENTITY datepicker.prefs.tab1 "Calendar">
-<!ENTITY datepicker.prefs.tab2 "Positioning">
-<!ENTITY datepicker.prefs.title "Date Picker/Calendar options">
-<!ENTITY datepicker.prefs.intro "Define your calendar options here">
-<!ENTITY datepicker.prefs.weekStartLabel "Pick the day that the week starts on">
-<!ENTITY datepicker.prefs.weekendLabel "Weekend days are">
-<!ENTITY datepicker.prefs.yearRangeLabel "Years range between">
-<!ENTITY datepicker.prefs.dateFormatLabel "Format for selection is">
-<!ENTITY datepicker.prefs.shortDateFormatLabel "Format for today&apos;s date in status bar is">
-<!ENTITY datepicker.prefs.showOtherMonthsLabel "Show days from other months">
-<!ENTITY datepicker.prefs.dateFormatInfo "For more information on which parameters you can use in date format see:">
-<!ENTITY datepicker.prefs.positioning "Choose your preferred status bar position:">
-<!ENTITY datepicker.prefs.before "Before">
-<!ENTITY datepicker.prefs.after "After">
+<!ENTITY @EXTENSION@.prefs.tab1 "Calendar">
+<!ENTITY @EXTENSION@.prefs.tab2 "Positioning">
+<!ENTITY @EXTENSION@.prefs.title "Date Picker/Calendar options">
+<!ENTITY @EXTENSION@.prefs.intro "Define your calendar options here">
+<!ENTITY @EXTENSION@.prefs.weekStartLabel "Pick the day that the week starts on">
+<!ENTITY @EXTENSION@.prefs.weekendLabel "Weekend days are">
+<!ENTITY @EXTENSION@.prefs.yearRangeLabel "Years range between">
+<!ENTITY @EXTENSION@.prefs.dateFormatLabel "Format for selection is">
+<!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Format for today&apos;s date in status bar is">
+<!ENTITY @EXTENSION@.prefs.showOtherMonthsLabel "Show days from other months">
+<!ENTITY @EXTENSION@.prefs.dateFormatInfo "For more information on which parameters you can use in date format see:">
+<!ENTITY @EXTENSION@.prefs.positioning "Choose your preferred status bar position:">
+<!ENTITY @EXTENSION@.prefs.before "Before">
+<!ENTITY @EXTENSION@.prefs.after "After">

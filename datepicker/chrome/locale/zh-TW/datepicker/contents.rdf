@@ -13,7 +13,7 @@
                      chrome:name="zh-TW">
         <chrome:packages>
             <RDF:Seq about="urn:mozilla:locale:zh-TW:packages">
-                <RDF:li resource="urn:mozilla:locale:zh-TW:datepicker"/>
+                <RDF:li resource="urn:mozilla:locale:zh-TW:@EXTENSION@"/>
             </RDF:Seq>
         </chrome:packages>
     </RDF:Description>

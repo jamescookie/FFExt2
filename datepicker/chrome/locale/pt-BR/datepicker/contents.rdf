@@ -9,11 +9,11 @@
 
     <RDF:Description about="urn:mozilla:locale:pt-BR"
                      chrome:author="Pedro Luiz Failla Junior"
-                     chrome:displayName="Português(Brasil)"
+                     chrome:displayName="Portuguï¿½s(Brasil)"
                      chrome:name="pt-BR">
         <chrome:packages>
             <RDF:Seq about="urn:mozilla:locale:pt-BR:packages">
-                <RDF:li resource="urn:mozilla:locale:pt-BR:datepicker"/>
+                <RDF:li resource="urn:mozilla:locale:pt-BR:@EXTENSION@"/>
             </RDF:Seq>
         </chrome:packages>
     </RDF:Description>

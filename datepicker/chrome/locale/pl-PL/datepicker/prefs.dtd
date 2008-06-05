@@ -1,0 +1,14 @@
+<!ENTITY @EXTENSION@.prefs.tab1 "Kalendarz">
+<!ENTITY @EXTENSION@.prefs.tab2 "Miejsce wyświetlania">
+<!ENTITY @EXTENSION@.prefs.title "Date Picker/Calendar - ustawienia">
+<!ENTITY @EXTENSION@.prefs.intro "Zdefiniuj ustawienia kalendarza">
+<!ENTITY @EXTENSION@.prefs.weekStartLabel "Określ pierwszy dzień tygodnia">
+<!ENTITY @EXTENSION@.prefs.weekendLabel "Dni weekendu">
+<!ENTITY @EXTENSION@.prefs.yearRangeLabel "Zakres lat">
+<!ENTITY @EXTENSION@.prefs.dateFormatLabel "Format daty w kalendarzu">
+<!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Format daty na pasku stanu">
+<!ENTITY @EXTENSION@.prefs.showOtherMonthsLabel "Wyświetl dni sąsiednich miesięcy">
+<!ENTITY @EXTENSION@.prefs.dateFormatInfo "Więcej informacji">
+<!ENTITY @EXTENSION@.prefs.positioning "Określ miejsce wyświetlania na pasku stanu:">
+<!ENTITY @EXTENSION@.prefs.before "Przed">
+<!ENTITY @EXTENSION@.prefs.after "Za">

@@ -1,15 +1,14 @@
-<!ENTITY datepicker.prefs.tab1 "Calendário">
-<!ENTITY datepicker.prefs.tab2 "Posicionamento">
-<!ENTITY datepicker.prefs.title "Date Picker/Calendar Opções">
-<!ENTITY datepicker.prefs.intro "Defina suas opções do calendário aqui">
-<!ENTITY datepicker.prefs.dateoptions "Opções de Formatação:\n\n&#37;a\tdia da semana abreviado\n&#37;A\tdia da semana completo\n&#37;b\tnome do mês abreviado\n&#37;B\tnome do mês completo\n&#37;C\tséculo\n&#37;d\tdia do mês ( 00 .. 31 )\n&#37;e\tdia do mês ( 0 .. 31 )\n&#37;H\thora ( 00 .. 23 )\n&#37;I\thora ( 01 .. 12 )\n&#37;j\tdia do ano (000 .. 366 )\n&#37;k\thora ( 0 .. 23 )\n&#37;l\thora ( 1 .. 12 )\n&#37;m\tmês ( 01 .. 12)\n&#37;M\tminuto ( 00 .. 59)\n&#37;p\tPM ou AM\n&#37;P\tpm ou am\n&#37;S\tsegundo ( 00 .. 59)\n&#37;s\tnúmero de segundos desde o Epoch (desde 01 Jan 1970 00:00:00 UTC)\n&#37;t\tum espaço\n&#37;U\tnúmero da semana\n&#37;u\tdia da semana ( 1 .. 7, 1 = SEG )\n&#37;w\tdia da semana ( 0 .. 6, 0 = DOM )\n&#37;y\tano sem o século ( 00 .. 99 )\n&#37;Y\tano com o século ( ex. 1972 )\n&#37;&#37;\tcaracter literal &#37;">
-<!ENTITY datepicker.prefs.weekStartLabel "Escolha o dia que a semana começa">
-<!ENTITY datepicker.prefs.weekendLabel "Os dias do fim de semana são:">
-<!ENTITY datepicker.prefs.yearRangeLabel "Anos variando entre">
-<!ENTITY datepicker.prefs.dateFormatLabel "O Formato para a seleção é">
-<!ENTITY datepicker.prefs.shortDateFormatLabel "O Formato para a data de hoje na barra de estatus é">
-<!ENTITY datepicker.prefs.showOtherMonthsLabel "Exibir dias dos outros meses">
-<!ENTITY datepicker.prefs.dateFormatInfo "Para mais informações sobre os parametros disponíveis para a formatação das datas olhe em:">
-<!ENTITY datepicker.prefs.positioning "Escolha a posição na barra de estatus:">
-<!ENTITY datepicker.prefs.before "Antes">
-<!ENTITY datepicker.prefs.after "Depois">
+<!ENTITY @EXTENSION@.prefs.tab1 "Calendário">
+<!ENTITY @EXTENSION@.prefs.tab2 "Posicionamento">
+<!ENTITY @EXTENSION@.prefs.title "Date Picker/Calendar Opções">
+<!ENTITY @EXTENSION@.prefs.intro "Defina suas opções do calendário aqui">
+<!ENTITY @EXTENSION@.prefs.weekStartLabel "Escolha o dia que a semana começa">
+<!ENTITY @EXTENSION@.prefs.weekendLabel "Os dias do fim de semana são:">
+<!ENTITY @EXTENSION@.prefs.yearRangeLabel "Anos variando entre">
+<!ENTITY @EXTENSION@.prefs.dateFormatLabel "O Formato para a seleção é">
+<!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "O Formato para a data de hoje na barra de estatus é">
+<!ENTITY @EXTENSION@.prefs.showOtherMonthsLabel "Exibir dias dos outros meses">
+<!ENTITY @EXTENSION@.prefs.dateFormatInfo "Para mais informações sobre os parametros disponíveis para a formatação das datas olhe em:">
+<!ENTITY @EXTENSION@.prefs.positioning "Escolha a posição na barra de estatus:">
+<!ENTITY @EXTENSION@.prefs.before "Antes">
+<!ENTITY @EXTENSION@.prefs.after "Depois">

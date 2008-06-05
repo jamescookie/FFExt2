@@ -13,7 +13,7 @@
                      chrome:name="hr-HR">
         <chrome:packages>
             <RDF:Seq about="urn:mozilla:locale:hr-HR:packages">
-                <RDF:li resource="urn:mozilla:locale:hr-HR:datepicker"/>
+                <RDF:li resource="urn:mozilla:locale:hr-HR:@EXTENSION@"/>
             </RDF:Seq>
         </chrome:packages>
     </RDF:Description>

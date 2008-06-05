@@ -1,6 +1,6 @@
-<!ENTITY datepicker.help.title "Date Picker/Calendar pomoć">
-<!ENTITY datepicker.help.written "Napisao:">
-<!ENTITY datepicker.help.basedon "Zasnovano na radu:">
-<!ENTITY datepicker.help.selection "Odabir datuma:">
-<!ENTITY datepicker.help.year "Koristite gumbe &lt;&lt;, &gt;&gt; da biste odabrali godinu">
-<!ENTITY datepicker.help.month "Koristite gumbe &lt;, &gt; da biste odabrali mjesec">
+<!ENTITY @EXTENSION@.help.title "Date Picker/Calendar pomoć">
+<!ENTITY @EXTENSION@.help.written "Napisao:">
+<!ENTITY @EXTENSION@.help.basedon "Zasnovano na radu:">
+<!ENTITY @EXTENSION@.help.selection "Odabir datuma:">
+<!ENTITY @EXTENSION@.help.year "Koristite gumbe &lt;&lt;, &gt;&gt; da biste odabrali godinu">
+<!ENTITY @EXTENSION@.help.month "Koristite gumbe &lt;, &gt; da biste odabrali mjesec">

@@ -8,12 +8,12 @@
     </RDF:Seq>
 
     <RDF:Description about="urn:mozilla:locale:fr-FR"
-                     chrome:author="James Cook"
-                     chrome:displayName="Français(FR)"
+                     chrome:author="@AUTHOR@"
+                     chrome:displayName="Franï¿½ais(FR)"
                      chrome:name="fr-FR">
         <chrome:packages>
             <RDF:Seq about="urn:mozilla:locale:fr-FR:packages">
-                <RDF:li resource="urn:mozilla:locale:fr-FR:datepicker"/>
+                <RDF:li resource="urn:mozilla:locale:fr-FR:@EXTENSION@"/>
             </RDF:Seq>
         </chrome:packages>
     </RDF:Description>

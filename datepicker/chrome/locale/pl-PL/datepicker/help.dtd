@@ -1,0 +1,6 @@
+<!ENTITY @EXTENSION@.help.title "Kalendarz - informacje">
+<!ENTITY @EXTENSION@.help.written "Autor:">
+<!ENTITY @EXTENSION@.help.basedon "Based on work by:">
+<!ENTITY @EXTENSION@.help.selection "Wybór daty:">
+<!ENTITY @EXTENSION@.help.year "Aby zmienić rok użyj przycisków &lt;&lt;, &gt;&gt;">
+<!ENTITY @EXTENSION@.help.month "Aby zmienić miesiąc użyj przycisków &lt;, &gt;">

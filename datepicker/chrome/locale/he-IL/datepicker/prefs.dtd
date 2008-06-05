@@ -1,0 +1,14 @@
+<!ENTITY @EXTENSION@.prefs.tab1 "לוח שנה">
+<!ENTITY @EXTENSION@.prefs.tab2 "מיקום">
+<!ENTITY @EXTENSION@.prefs.title "אפשרויותDate Picker/Calendar">
+<!ENTITY @EXTENSION@.prefs.intro "הגדר את אפשרויות לוח השנה שלך כאן">
+<!ENTITY @EXTENSION@.prefs.weekStartLabel "בחר ביום הראשון של השבוע">
+<!ENTITY @EXTENSION@.prefs.weekendLabel "ימי סוף השבוע הם">
+<!ENTITY @EXTENSION@.prefs.yearRangeLabel "טווחי שנים בין">
+<!ENTITY @EXTENSION@.prefs.dateFormatLabel "תבנית לבחירה היא">
+<!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "תבנית לתאריך של היום בשורת המצב היא">
+<!ENTITY @EXTENSION@.prefs.showOtherMonthsLabel "הצג ימים מחודשים שונים">
+<!ENTITY @EXTENSION@.prefs.dateFormatInfo "למידע נוסף על משתנים שניתן להשתמש בהם בתבנית התאריך ראה\י:">
+<!ENTITY @EXTENSION@.prefs.positioning "בחר\י את המיקום המועדף עלייך בשורת המצב:">
+<!ENTITY @EXTENSION@.prefs.before "לפני">
+<!ENTITY @EXTENSION@.prefs.after "אחרי">

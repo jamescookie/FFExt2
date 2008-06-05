@@ -1,0 +1,27 @@
+<!ENTITY @EXTENSION@.formats.title "Date Picker/Calendar - formaty">
+<!ENTITY @EXTENSION@.formats.options "Format wyświetlania daty i czasu:">
+<!ENTITY @EXTENSION@.formats.opt1 "skrócona nazwa dnia weekendu">
+<!ENTITY @EXTENSION@.formats.opt2 "pełna nazwa dnia weekendu">
+<!ENTITY @EXTENSION@.formats.opt3 "skrócona nazwa miesiąca">
+<!ENTITY @EXTENSION@.formats.opt4 "pełna  nazwa miesiąca">
+<!ENTITY @EXTENSION@.formats.opt5 "wiek">
+<!ENTITY @EXTENSION@.formats.opt6 "dzień miesiąca ( 00 .. 31 )">
+<!ENTITY @EXTENSION@.formats.opt7 "dzień miesiąca ( 0 .. 31 )">
+<!ENTITY @EXTENSION@.formats.opt8 "godzina ( 00 .. 23 )">
+<!ENTITY @EXTENSION@.formats.opt9 "godzina ( 01 .. 12 )">
+<!ENTITY @EXTENSION@.formats.opt10 "dzień roku ( 000 .. 366 )">
+<!ENTITY @EXTENSION@.formats.opt11 "godzina ( 0 .. 23 )">
+<!ENTITY @EXTENSION@.formats.opt12 "godzina ( 1 .. 12 )">
+<!ENTITY @EXTENSION@.formats.opt13 "miesiąc ( 01 .. 12)">
+<!ENTITY @EXTENSION@.formats.opt14 "minuty ( 00 .. 59)">
+<!ENTITY @EXTENSION@.formats.opt15 "PM lub AM">
+<!ENTITY @EXTENSION@.formats.opt16 "pm lub am">
+<!ENTITY @EXTENSION@.formats.opt17 "sekundy ( 00 .. 59)">
+<!ENTITY @EXTENSION@.formats.opt18 "linuksowy znacznik czsu (od Sty 01 1970 00:00:00 UTC)">
+<!ENTITY @EXTENSION@.formats.opt19 "separator">
+<!ENTITY @EXTENSION@.formats.opt20 "numer tygodnia">
+<!ENTITY @EXTENSION@.formats.opt21 "dzień tygodnia ( 1 .. 7, 1 = Pon )">
+<!ENTITY @EXTENSION@.formats.opt22 "dzień tygodnia ( 0 .. 6, 0 = Nie )">
+<!ENTITY @EXTENSION@.formats.opt23 "skrócony rok ( 00 .. 99 )">
+<!ENTITY @EXTENSION@.formats.opt24 "pełny rok ( np. 1972 )">
+<!ENTITY @EXTENSION@.formats.opt25 "znak &#37;">

@@ -1,3 +1,3 @@
-<!ENTITY datepicker.cal.title "Datumselectie/Kalender">
-<!ENTITY datepicker.cal.today "Vandaag">
-<!ENTITY datepicker.cal.options "Opties...">
+<!ENTITY @EXTENSION@.cal.title "Date Picker/Calendar">
+<!ENTITY @EXTENSION@.cal.today "Vandaag">
+<!ENTITY @EXTENSION@.cal.options "Opties...">

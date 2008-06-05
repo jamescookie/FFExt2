@@ -1,0 +1,6 @@
+<!ENTITY @EXTENSION@.help.title "Date Picker/Calendar עזרה">
+<!ENTITY @EXTENSION@.help.written "נכתב על-ידי:">
+<!ENTITY @EXTENSION@.help.basedon "מבוסס על עבודתו של:">
+<!ENTITY @EXTENSION@.help.selection "בחירת תאריך">
+<!ENTITY @EXTENSION@.help.year "השתמש\י בכפתורי ה- &lt;&lt;, &gt;&gt; כדי לבחור שנה">
+<!ENTITY @EXTENSION@.help.month "השתמש\י בכפתורי ה- &lt;, &gt; כדי לבחור חודש">

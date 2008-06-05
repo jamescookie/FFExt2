@@ -1,15 +1,14 @@
-<!ENTITY datepicker.prefs.tab1 "Calendario">
-<!ENTITY datepicker.prefs.tab2 "Posizionamento">
-<!ENTITY datepicker.prefs.title "Opzioni di Date Picker/Calendar">
-<!ENTITY datepicker.prefs.intro "Impostare qui le opzioni del proprio calendario">
-<!ENTITY datepicker.prefs.dateoptions "Opzioni per il formato:\n\n&#37;a\tnome abbreviato dei giorni della settimana\n&#37;A\tnome completo dei giorni della settimana\n&#37;b\tnome abbreviato dei mesi\n&#37;B\tnome completo del mese\n&#37;C\tnumero del secolo\n&#37;d\tgiorno del mese ( 00 .. 31 )\n&#37;e\tgiorno del mese ( 0 .. 31 )\n&#37;H\tora ( 00 .. 23 )\n&#37;I\tora ( 01 .. 12 )\n&#37;j\tgiorno dell&apos;anno (000 .. 366 )\n&#37;k\tora ( 0 .. 23 )\n&#37;l\tora ( 1 .. 12 )\n&#37;m\tmese ( 01 .. 12)\n&#37;M\tminuto ( 00 .. 59)\n&#37;p\tAM o PM\n&#37;P\tam o pm\n&#37;S\tsecondo ( 00 .. 59)\n&#37;s\tnumero di secondi a partire dalle 00:00:00 UTC del 1° Gennaio 1970)\n&#37;t\ttab orizzontale\n&#37;U\tnumero della settimana\n&#37;u\tgiorno della settimana ( 1 .. 7, 1 = LUN )\n&#37;w\tgiorno della settimana ( 0 .. 6, 0 = DOM )\n&#37;y\tultime due cifre dell&apos;anno ( 00 .. 99 )\n&#37;Y\tanno ( es. 1972 )\n&#37;&#37;\tcarattere &#37;">
-<!ENTITY datepicker.prefs.weekStartLabel "Il giorno in cui inizia la settimana è">
-<!ENTITY datepicker.prefs.weekendLabel "I giorni di fine settimana sono">
-<!ENTITY datepicker.prefs.yearRangeLabel "Intervallo di anni tra">
-<!ENTITY datepicker.prefs.dateFormatLabel "Il formato per la selezione è">
-<!ENTITY datepicker.prefs.shortDateFormatLabel "Il formato per la data di oggi nella barra di stato è">
-<!ENTITY datepicker.prefs.showOtherMonthsLabel "Mostra i giorni degli altri mesi">
-<!ENTITY datepicker.prefs.dateFormatInfo "Per ulteriori informazioni circa riguardo ai parametri utilizzare per il formato della data visitare:">
-<!ENTITY datepicker.prefs.positioning "Posizione del datario nella barra di stato:">
-<!ENTITY datepicker.prefs.before "Prima di">
-<!ENTITY datepicker.prefs.after "Dopo">
+<!ENTITY @EXTENSION@.prefs.tab1 "Calendario">
+<!ENTITY @EXTENSION@.prefs.tab2 "Posizionamento">
+<!ENTITY @EXTENSION@.prefs.title "Opzioni di Date Picker/Calendar">
+<!ENTITY @EXTENSION@.prefs.intro "Impostare qui le opzioni del proprio calendario">
+<!ENTITY @EXTENSION@.prefs.weekStartLabel "Il giorno in cui inizia la settimana è">
+<!ENTITY @EXTENSION@.prefs.weekendLabel "I giorni di fine settimana sono">
+<!ENTITY @EXTENSION@.prefs.yearRangeLabel "Intervallo di anni tra">
+<!ENTITY @EXTENSION@.prefs.dateFormatLabel "Il formato per la selezione è">
+<!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Il formato per la data di oggi nella barra di stato è">
+<!ENTITY @EXTENSION@.prefs.showOtherMonthsLabel "Mostra i giorni degli altri mesi">
+<!ENTITY @EXTENSION@.prefs.dateFormatInfo "Per ulteriori informazioni riguardo ai parametri utilizzare per il formato della data visitare:">
+<!ENTITY @EXTENSION@.prefs.positioning "Posizione del datario nella barra di stato:">
+<!ENTITY @EXTENSION@.prefs.before "Prima di">
+<!ENTITY @EXTENSION@.prefs.after "Dopo">
