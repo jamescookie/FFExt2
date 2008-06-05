@@ -6,7 +6,7 @@
     <property name="extension.full.name" value="Date Picker/Calendar" />
     <property name="extension.short.name" value="${extension.full.name}" />
     <property name="extension.author" value="James Cook" />
-    <property name="extension.version" value="1.1" />
+    <property name="extension.version" value="2.0" />
     <property name="base.url" value="http://www.jamescookie.com" />
     <property name="extensions.url" value="${base.url}/extensions/" />
     <property name="extension.description" value="Quick popup allowing you to view a calendar/pick a date." />

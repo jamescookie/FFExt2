@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<?xml-stylesheet href="chrome://@EXTENSION@/content/xulcalendar.css" type="text/css"?>
 <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
 <!DOCTYPE dialog SYSTEM "chrome://@EXTENSION@/locale/cal.dtd">
 
@@ -20,38 +19,7 @@
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/preferenceUtils.js" />
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/showCal.js"/>
 
-    <vbox class="calendar">
-        <hbox>
-            <label id="help" value="?"/>
-            <label id="title" flex="1"/>
-        </hbox>
-        <hbox>
-            <label id="backYear" value="&lt;&lt;"/>
-            <label id="backMonth" value="&lt;" />
-            <label id="gotoToday" value="&@EXTENSION@.cal.today;" flex="1" />
-            <label id="forwardMonth" value="&gt;" />
-            <label id="forwardYear" value="&gt;&gt;" />
-        </hbox>
-        <grid flex="1" id="tableCal">
-          <columns>
-            <column/>
-            <column/>
-            <column/>
-            <column/>
-            <column/>
-            <column/>
-            <column/>
-          </columns>
-          <rows id="rows">
-            <row id="daynames"></row>
-            <row id="dayrow1"></row>
-            <row id="dayrow2"></row>
-            <row id="dayrow3"></row>
-            <row id="dayrow4"></row>
-            <row id="dayrow5"></row>
-            <row id="dayrow6"></row>
-          </rows>
-        </grid>
-    </vbox>
+    <datepicker type="grid" onchange="alert(this.dateValue)"/>
+
     <textbox id="datebox"/>
 </dialog>
