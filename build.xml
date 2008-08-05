@@ -22,7 +22,7 @@
 
         <copy todir="${tmp.directory}">
             <fileset dir="${extension.name}">
-                <exclude name="CVS/**"/>
+                <exclude name=".svn/**"/>
 				<exclude name="**/*.png"/>
             </fileset>
             <filterset>
