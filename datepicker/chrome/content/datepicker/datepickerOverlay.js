@@ -55,15 +55,15 @@ var @EXTENSION@Var = {
         if (event.button == 0) {
             window.openDialog(
                 "chrome://@EXTENSION@/content/showCal.xul",
-                "_blank",
-                "chrome,modal,centerscreen,resizable=no,dependent=yes");
+                "_@EXTENSION@",
+                "chrome,centerscreen,resizable=no,dependent=yes");
 		}
     },
 
     showOptions: function() {
         window.openDialog(
                 "chrome://@EXTENSION@/content/@EXTENSION@Prefs.xul",
-                "_blank",
+                "_@EXTENSION@Options",
 	 	        "chrome,modal,centerscreen,resizable=no,dependent=yes");
     }
 }

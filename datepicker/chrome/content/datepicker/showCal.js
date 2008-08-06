@@ -11,6 +11,7 @@ function init() {
 //    cal.create(document.getElementById("calendarDiv"));
 //    cal.callHandler();
     this.@EXTENSION@DateFormat = getCharacterPreferenceValue("dateFormat", prefs, "%d %B %Y");
+    showDate(new Date());
 }
 
 function showDate(aDate) {

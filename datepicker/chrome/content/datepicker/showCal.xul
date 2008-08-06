@@ -5,9 +5,9 @@
 <dialog id="@EXTENSION@Prefs"
     xmlns:html="http://www.w3.org/1999/xhtml"
     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
-	buttons="accept"
-	onload="init();"
-	title="&@EXTENSION@.cal.title;"
+    buttons="accept"
+    onload="init();"
+    title="&@EXTENSION@.cal.title;"
     flex="1">
 
     <stringbundleset id="stringbundleset">
@@ -21,5 +21,5 @@
 
     <datepicker type="grid" onchange="showDate(this.dateValue)"/>
 
-    <textbox id="datebox"/>
+    <textbox style="margin-left:7px;margin-right:7px;" id="datebox"/>
 </dialog>
