@@ -1,6 +1,0 @@
-<!ENTITY @EXTENSION@.help.title "Tarih Toplayıcı/Takvim yardımı">
-<!ENTITY @EXTENSION@.help.written "Yazan:">
-<!ENTITY @EXTENSION@.help.basedon "Çalışması temel alınan:">
-<!ENTITY @EXTENSION@.help.selection "Tarih seçimi:">
-<!ENTITY @EXTENSION@.help.year "Yıl seçmek için &lt;&lt;, &gt;&gt; butonlarını kullan">
-<!ENTITY @EXTENSION@.help.month "Ay seçmek için &lt;, &gt; butonlarını kullan">

@@ -1,6 +1,0 @@
-<!ENTITY @EXTENSION@.help.title "Date Picker/Calendar súgó">
-<!ENTITY @EXTENSION@.help.written "Készítette:">
-<!ENTITY @EXTENSION@.help.basedon "Alapötlet:">
-<!ENTITY @EXTENSION@.help.selection "Dátumválasztás:">
-<!ENTITY @EXTENSION@.help.year "Használja a &lt;&lt;, &gt;&gt; billentyűket az év kiválasztására">
-<!ENTITY @EXTENSION@.help.month "Használja a &lt;, &gt; billentyűket a hónap kiválasztására">

@@ -1,6 +1,0 @@
-<!ENTITY @EXTENSION@.help.title "日期选择器/日历帮助">
-<!ENTITY @EXTENSION@.help.written "作者：">
-<!ENTITY @EXTENSION@.help.basedon "基于：">
-<!ENTITY @EXTENSION@.help.selection "日期选择：">
-<!ENTITY @EXTENSION@.help.year "使用 &lt;&lt;, &gt;&gt; 按钮选择年份">
-<!ENTITY @EXTENSION@.help.month "使用 &lt;, &gt; 按钮选择月份">

@@ -1,6 +1,0 @@
-<!ENTITY @EXTENSION@.help.title "Date Picker/Calendar help">
-<!ENTITY @EXTENSION@.help.written "Geschreven door:">
-<!ENTITY @EXTENSION@.help.basedon "Gebaseerd op het werk van:">
-<!ENTITY @EXTENSION@.help.selection "Datumselectie:">
-<!ENTITY @EXTENSION@.help.year "Gebruik de &lt;&lt;, &gt;&gt; knoppen om het jaar te selecteren">
-<!ENTITY @EXTENSION@.help.month "Gebruik de &lt;, &gt; knoppen om de maand te selecteren">

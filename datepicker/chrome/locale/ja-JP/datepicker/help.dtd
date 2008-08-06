@@ -1,6 +1,0 @@
-<!ENTITY @EXTENSION@.help.title "ヘルプ">
-<!ENTITY @EXTENSION@.help.written "Written by:">
-<!ENTITY @EXTENSION@.help.basedon "Based on work by:">
-<!ENTITY @EXTENSION@.help.selection "Date selection:">
-<!ENTITY @EXTENSION@.help.year "&lt;&lt;また&gt;&gt;押したら年を選択になります。">
-<!ENTITY @EXTENSION@.help.month "月を選択するために　＜また　＞　使用するようにしでください">

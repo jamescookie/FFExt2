@@ -1,6 +1,0 @@
-<!ENTITY @EXTENSION@.help.title "Informazioni su Date Picker/Calendar">
-<!ENTITY @EXTENSION@.help.written "Scritta da:">
-<!ENTITY @EXTENSION@.help.basedon "Basata sul lavoro di:">
-<!ENTITY @EXTENSION@.help.selection "Selezione della data:">
-<!ENTITY @EXTENSION@.help.year "Utilizzare i pulsanti &lt;&lt; e &gt;&gt; per selezionare l&apos;anno">
-<!ENTITY @EXTENSION@.help.month "Utilizzare i pulsanti &lt; e &gt; per selezionare il mese">
