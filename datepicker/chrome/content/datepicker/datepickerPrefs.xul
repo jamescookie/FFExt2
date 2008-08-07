@@ -5,8 +5,8 @@
 <dialog id="@EXTENSION@Prefs"
 	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
 	buttons="accept, cancel"
-	onload="init();"
-	ondialogaccept="return accept();"
+	onload="@EXTENSION@PrefsVar.init();"
+	ondialogaccept="return @EXTENSION@PrefsVar.accept();"
 	title="&@EXTENSION@.prefs.title;"
     flex="1">
 

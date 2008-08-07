@@ -12,7 +12,7 @@ var @EXTENSION@Var = {
 
     setPanelPosition: function() {
         try {
-            var position = getCharacterPreferenceValueWithDefault("position", Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch), "");
+            var position = @EXTENSION@PrefUtilsVar.getCharacterPreferenceValueWithDefault("position", Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch), "");
             var myRegExp = new RegExp(" ", "");
             if (myRegExp.test(position) && (RegExp.rightContext != "")) {
                 var statusbar = document.getElementById("status-bar");
@@ -48,7 +48,7 @@ var @EXTENSION@Var = {
     },
 
     updateDate: function() {
-        document.getElementById("statusbar-@EXTENSION@-display").setAttribute("label", new Date().@EXTENSION@Print(getCharacterPreferenceValueWithDefault("shortDateFormat", Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch), "%d %b")));
+        document.getElementById("statusbar-@EXTENSION@-display").setAttribute("label", new Date().@EXTENSION@Print(@EXTENSION@PrefUtilsVar.getCharacterPreferenceValueWithDefault("shortDateFormat", Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch), "%d %b")));
     },
 
     showCalendar: function(event) {
