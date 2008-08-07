@@ -16,7 +16,6 @@
     </stringbundleset>
 
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/calendarLanguage.js" />
-    <script type="application/x-javascript" src="chrome://@EXTENSION@/content/calendarPreferenceLanguage.js" />
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/preferenceUtils.js" />
 	<script type="application/x-javascript" src="chrome://@EXTENSION@/content/@EXTENSION@Prefs.js"/>
 
@@ -30,34 +29,21 @@
                 <label class="header" value="&@EXTENSION@.prefs.intro;" />
                 <separator class="thin"/>
                 <hbox align="center">
-                  <label value="&@EXTENSION@.prefs.weekStartLabel;" control="weekStart" />
-                  <menulist id="weekStart" width="120" />
-                </hbox>
-                <hbox align="center">
-                  <label value="&@EXTENSION@.prefs.weekendLabel;"/>
-                  <menulist id="weekend1" width="120" />
-                  <menulist id="weekend2" width="120" />
-                </hbox>
-                <hbox align="center">
-                  <label value="&@EXTENSION@.prefs.showOtherMonthsLabel;"/>
-                  <checkbox id="showOtherMonths" checked="true" />
-                </hbox>
-                <hbox align="center">
-                  <label value="&@EXTENSION@.prefs.yearRangeLabel;"/>
-                  <textbox id="years1" size="4" maxlength="4" />
-                  <textbox id="years2" size="4" maxlength="4" />
-                </hbox>
-                <hbox align="center">
                   <label value="&@EXTENSION@.prefs.dateFormatLabel;"/>
                   <textbox id="dateFormat" maxlength="255" />
-                  <button id="help" label="?" onclick="window.openDialog('chrome://@EXTENSION@/content/@EXTENSION@Formats.xul', '@EXTENSION@Formats', 'chrome,modal,centerscreen,resizable=no,dependent=yes');" flex="1" style="max-width:20px" />
                 </hbox>
                 <hbox align="center">
                   <label value="&@EXTENSION@.prefs.shortDateFormatLabel;"/>
                   <textbox id="shortDateFormat" maxlength="255" />
                 </hbox>
-                <text value="&@EXTENSION@.prefs.dateFormatInfo;" style="font-size: 80%; color: #f00;"/>
-                <text value="http://www.jamescookie.com/extensions/" style="font-size: 80%; color: #f00;" onclick="window.open('http://www.jamescookie.com/extensions/'); window.close();"/>
+                <vbox style="margin-left:6px">
+                  <text value="&@EXTENSION@.prefs.dateFormatInfo;" style="font-size: 80%; color: #f00;"/>
+                  <text value="@EXTENSIONS_URL@" style="font-size: 80%; color: #f00; cursor: pointer;" onclick="window.open('@EXTENSIONS_URL@'); window.close();"/>
+                </vbox>
+                <hbox align="center">
+                    <label value="&@EXTENSION@.prefs.dateFormatHelpLabel;" style="font-size: 80%; color: #f00;"/>
+                    <button id="help" onclick="window.openDialog('chrome://@EXTENSION@/content/@EXTENSION@Formats.xul', '@EXTENSION@Formats', 'chrome,modal,centerscreen,resizable=no,dependent=yes');" style="max-width:20px; text-align:center;">&@EXTENSION@.prefs.dateFormatHelp;</button>
+                </hbox>
             </tabpanel>
             <tabpanel orient="vertical">
                 <label value="&@EXTENSION@.prefs.positioning;" control="listOrder"/>

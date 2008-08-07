@@ -6,13 +6,11 @@
 <!ENTITY @EXTENSION@.prefs.title "@EXTENSION_FULL@ options">
 <!ENTITY @EXTENSION@.prefs.intro "Define your calendar options here">
 
-<!ENTITY @EXTENSION@.prefs.weekStartLabel "Pick the day that the week starts on">
-<!ENTITY @EXTENSION@.prefs.weekendLabel "Weekend days are">
-<!ENTITY @EXTENSION@.prefs.yearRangeLabel "Years range between">
 <!ENTITY @EXTENSION@.prefs.dateFormatLabel "Format for selection is">
 <!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Format for today's date in status bar is">
-<!ENTITY @EXTENSION@.prefs.showOtherMonthsLabel "Show days from other months">
 <!ENTITY @EXTENSION@.prefs.dateFormatInfo "For more information on which parameters you can use in date format see:">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelpLabel "Alternatively, click here for a quick guide:">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelp "Help">
 
 <!--tab 2-->
 <!ENTITY @EXTENSION@.prefs.positioning "Choose your preferred status bar position:">

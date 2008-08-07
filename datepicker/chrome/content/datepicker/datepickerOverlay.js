@@ -44,11 +44,11 @@ var @EXTENSION@Var = {
         this.removeTicker();
         this.checkLanguageLoaded();
         this.updateDate();
-        this.ticker = window.setInterval(Refresh@EXTENSION@Function, 200);
+        this.ticker = window.setInterval(Refresh@EXTENSION@Function, 200); //todo set this dependant on shortdateformat
     },
 
     updateDate: function() {
-        document.getElementById("statusbar-@EXTENSION@-display").setAttribute("label", new Date().print(getCharacterPreferenceValueWithDefault("shortDateFormat", Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch), "%d %b")));
+        document.getElementById("statusbar-@EXTENSION@-display").setAttribute("label", new Date().@EXTENSION@Print(getCharacterPreferenceValueWithDefault("shortDateFormat", Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch), "%d %b")));
     },
 
     showCalendar: function(event) {
@@ -56,7 +56,7 @@ var @EXTENSION@Var = {
             window.openDialog(
                 "chrome://@EXTENSION@/content/showCal.xul",
                 "_@EXTENSION@",
-                "chrome,centerscreen,resizable=no,dependent=yes");
+                "chrome,centerscreen,resizable=no");
 		}
     },
 
