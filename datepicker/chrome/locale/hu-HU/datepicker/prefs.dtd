@@ -1,0 +1,15 @@
+<!ENTITY @EXTENSION@.prefs.tab1 "Naptár">
+<!ENTITY @EXTENSION@.prefs.tab2 "Elhelyezés">
+
+<!ENTITY @EXTENSION@.prefs.title "@EXTENSION_FULL@ beállítások">
+<!ENTITY @EXTENSION@.prefs.intro "Naptár beállítása:">
+
+<!ENTITY @EXTENSION@.prefs.dateFormatLabel "A dátum formátuma">
+<!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "A mai nap megjelenítési formátuma az állapotsorban">
+<!ENTITY @EXTENSION@.prefs.dateFormatInfo "A dátum beállításainak további paramétereiről információt tudhat meg:">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelpLabel "Gyors ismertetőhöz kattintson ide:">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelp "Súgó">
+
+<!ENTITY @EXTENSION@.prefs.positioning "Allítsa be az állapotsorban levő ikon pozícióját:">
+<!ENTITY @EXTENSION@.prefs.before "Ez előtt:">
+<!ENTITY @EXTENSION@.prefs.after "Ez után:">

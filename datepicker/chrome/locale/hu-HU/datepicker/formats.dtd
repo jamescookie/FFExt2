@@ -1,0 +1,27 @@
+<!ENTITY @EXTENSION@.formats.title "@EXTENSION_FULL@ - formátum beállítások">
+<!ENTITY @EXTENSION@.formats.options "Formátum beállítások:">
+<!ENTITY @EXTENSION@.formats.opt1 "a hét napjai röviden">
+<!ENTITY @EXTENSION@.formats.opt2 "a hét napjai">
+<!ENTITY @EXTENSION@.formats.opt3 "a hónapok nevei röviden">
+<!ENTITY @EXTENSION@.formats.opt4 "a hónapok nevei">
+<!ENTITY @EXTENSION@.formats.opt5 "évszázad">
+<!ENTITY @EXTENSION@.formats.opt6 "a hónap napjai ( 00 .. 31 )">
+<!ENTITY @EXTENSION@.formats.opt7 "a hónap napjai ( 0 .. 31 )">
+<!ENTITY @EXTENSION@.formats.opt8 "óra ( 00 .. 23 )">
+<!ENTITY @EXTENSION@.formats.opt9 "óra ( 01 .. 12 )">
+<!ENTITY @EXTENSION@.formats.opt10 "az év napja ( 000 .. 366 )">
+<!ENTITY @EXTENSION@.formats.opt11 "óra ( 0 .. 23 )">
+<!ENTITY @EXTENSION@.formats.opt12 "óra ( 1 .. 12 )">
+<!ENTITY @EXTENSION@.formats.opt13 "hónap ( 01 .. 12 )">
+<!ENTITY @EXTENSION@.formats.opt14 "perc ( 00 .. 59 )">
+<!ENTITY @EXTENSION@.formats.opt15 "DU vagy DE">
+<!ENTITY @EXTENSION@.formats.opt16 "du vagy de">
+<!ENTITY @EXTENSION@.formats.opt17 "mperc ( 00 .. 59 )">
+<!ENTITY @EXTENSION@.formats.opt18 "másodpercek száma 1970. január 1-től">
+<!ENTITY @EXTENSION@.formats.opt19 "tabulátor karakter">
+<!ENTITY @EXTENSION@.formats.opt20 "az év aktuális hetének sorszáma">
+<!ENTITY @EXTENSION@.formats.opt21 "az év aktuális hetének sorszáma ( 1 .. 7, 1 = hétfő )">
+<!ENTITY @EXTENSION@.formats.opt22 "az év aktuális hetének sorszáma ( 0 .. 6, 0 = vasárnap )">
+<!ENTITY @EXTENSION@.formats.opt23 "évszám ( 00 .. 99 )">
+<!ENTITY @EXTENSION@.formats.opt24 "évszám ( pl. 1972 )">
+<!ENTITY @EXTENSION@.formats.opt25 "a literális &#37; karakter">

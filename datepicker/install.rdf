@@ -28,6 +28,7 @@
 				<em:skin>skin/classic/@EXTENSION@/</em:skin>
 				<em:locale>locale/en-GB/@EXTENSION@/</em:locale>
 				<em:locale>locale/en-US/@EXTENSION@/</em:locale>
+				<em:locale>locale/hu-HU/@EXTENSION@/</em:locale>
 			</Description>
 		</em:file>
 
