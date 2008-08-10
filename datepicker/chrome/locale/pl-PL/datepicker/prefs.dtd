@@ -1,0 +1,15 @@
+<!ENTITY @EXTENSION@.prefs.tab1 "Kalendarz">
+<!ENTITY @EXTENSION@.prefs.tab2 "Pozycjonowanie">
+
+<!ENTITY @EXTENSION@.prefs.title "@EXTENSION_FULL@ - ustawienia">
+<!ENTITY @EXTENSION@.prefs.intro "Tutaj możesz zdefiniować ustawienia kalendarza">
+
+<!ENTITY @EXTENSION@.prefs.dateFormatLabel "Format zaznaczenia:">
+<!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Format daty na pasku stanu:">
+<!ENTITY @EXTENSION@.prefs.dateFormatInfo "Aby uzyskać więcej informacji na temat ustawiania parametrów daty przejdź na:">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelpLabel "Lub kliknij tutaj, aby zobaczyć krótki przewodnik:">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelp "Pomoc">
+
+<!ENTITY @EXTENSION@.prefs.positioning "Określ położenie na pasku stanu:">
+<!ENTITY @EXTENSION@.prefs.before "Przed">
+<!ENTITY @EXTENSION@.prefs.after "Po">
