@@ -1,0 +1,15 @@
+<!ENTITY @EXTENSION@.prefs.tab1 "Calendrier">
+<!ENTITY @EXTENSION@.prefs.tab2 "Positionnement">
+
+<!ENTITY @EXTENSION@.prefs.title "Options de @EXTENSION_FULL@">
+<!ENTITY @EXTENSION@.prefs.intro "Définissez ici vos options de calendrier">
+
+<!ENTITY @EXTENSION@.prefs.dateFormatLabel "Le format pour la sélection est">
+<!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Le format pour la date du jour dans la barre d&apos;état est">
+<!ENTITY @EXTENSION@.prefs.dateFormatInfo "Pour plus d&apos;informations sur les paramètres que vous pouvez utiliser pour le format de la date, voyez :">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelpLabel "Ou bien, cliquez ici pour un petit guide :">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelp "Aide">
+
+<!ENTITY @EXTENSION@.prefs.positioning "Choisissez votre position préférée dans la barre d&apos;état :">
+<!ENTITY @EXTENSION@.prefs.before "Avant">
+<!ENTITY @EXTENSION@.prefs.after "Après">
