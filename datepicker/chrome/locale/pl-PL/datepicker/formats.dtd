@@ -1,4 +1,4 @@
-<!ENTITY @EXTENSION@.formats.title "@EXTENSION_FULL@ - opcje formatu">
+<!ENTITY @EXTENSION@.formats.title "@EXTENSION_FULL@ - format daty">
 <!ENTITY @EXTENSION@.formats.options "Opcje formatu:">
 <!ENTITY @EXTENSION@.formats.opt1 "skrócona nazwa dnia tygodnia">
 <!ENTITY @EXTENSION@.formats.opt2 "pełna nazwa dnia tygodnia">
@@ -17,11 +17,11 @@
 <!ENTITY @EXTENSION@.formats.opt15 "PM lub AM">
 <!ENTITY @EXTENSION@.formats.opt16 "pm lub am">
 <!ENTITY @EXTENSION@.formats.opt17 "sekunda (00 .. 59">
-<!ENTITY @EXTENSION@.formats.opt18 "liczba sekund od Epoch (od Jan 01 1970 00:00:00 UTC)">
+<!ENTITY @EXTENSION@.formats.opt18 "liczba sekund od Epoch (od 01 stycznia 1970 00:00:00 UTC)">
 <!ENTITY @EXTENSION@.formats.opt19 "litera karty">
 <!ENTITY @EXTENSION@.formats.opt20 "cyfra tygodnia">
 <!ENTITY @EXTENSION@.formats.opt21 "dzień tygodnia (1 .. 7, 1 = Pon)">
 <!ENTITY @EXTENSION@.formats.opt22 "dzień tygodnia (0 .. 6, 0 = Niedz)">
 <!ENTITY @EXTENSION@.formats.opt23 "rok bez wyróżnika wieku (00 .. 99)">
 <!ENTITY @EXTENSION@.formats.opt24 "rok zawierający wyróżnik wieku (np.1972)">
-<!ENTITY @EXTENSION@.formats.opt25 "znak &#37; literowy">
+<!ENTITY @EXTENSION@.formats.opt25 "znak &#37;">

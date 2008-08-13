@@ -1,27 +1,27 @@
-<!ENTITY @EXTENSION@.formats.title "@EXTENSION_FULL@ format options">
-<!ENTITY @EXTENSION@.formats.options "Format options:">
-<!ENTITY @EXTENSION@.formats.opt1 "abbreviated weekday name">
-<!ENTITY @EXTENSION@.formats.opt2 "full weekday name">
-<!ENTITY @EXTENSION@.formats.opt3 "abbreviated month name">
-<!ENTITY @EXTENSION@.formats.opt4 "full month name">
-<!ENTITY @EXTENSION@.formats.opt5 "century number">
-<!ENTITY @EXTENSION@.formats.opt6 "the day of the month ( 00 .. 31 )">
-<!ENTITY @EXTENSION@.formats.opt7 "the day of the month ( 0 .. 31 )">
-<!ENTITY @EXTENSION@.formats.opt8 "hour ( 00 .. 23 )">
-<!ENTITY @EXTENSION@.formats.opt9 "hour ( 01 .. 12 )">
-<!ENTITY @EXTENSION@.formats.opt10 "day of the year (000 .. 366 )">
-<!ENTITY @EXTENSION@.formats.opt11 "hour ( 0 .. 23 )">
-<!ENTITY @EXTENSION@.formats.opt12 "hour ( 1 .. 12 )">
-<!ENTITY @EXTENSION@.formats.opt13 "month ( 01 .. 12)">
-<!ENTITY @EXTENSION@.formats.opt14 "minute ( 00 .. 59)">
-<!ENTITY @EXTENSION@.formats.opt15 "PM or AM">
-<!ENTITY @EXTENSION@.formats.opt16 "pm or am">
-<!ENTITY @EXTENSION@.formats.opt17 "second ( 00 .. 59)">
-<!ENTITY @EXTENSION@.formats.opt18 "number of seconds since Epoch (since Jan 01 1970 00:00:00 UTC)">
-<!ENTITY @EXTENSION@.formats.opt19 "a tab character">
-<!ENTITY @EXTENSION@.formats.opt20 "the week number">
-<!ENTITY @EXTENSION@.formats.opt21 "the day of the week ( 1 .. 7, 1 = MON )">
-<!ENTITY @EXTENSION@.formats.opt22 "the day of the week ( 0 .. 6, 0 = SUN )">
-<!ENTITY @EXTENSION@.formats.opt23 "year without the century ( 00 .. 99 )">
-<!ENTITY @EXTENSION@.formats.opt24 "year including the century ( ex. 1972 )">
-<!ENTITY @EXTENSION@.formats.opt25 "a literal &#37; character">
+<!ENTITY @EXTENSION@.formats.title "@EXTENSION_FULL@ opmaakopties">
+<!ENTITY @EXTENSION@.formats.options "Opmaakopties:">
+<!ENTITY @EXTENSION@.formats.opt1 "Afgekorte weekdag">
+<!ENTITY @EXTENSION@.formats.opt2 "Volledige weekdag">
+<!ENTITY @EXTENSION@.formats.opt3 "Afgekorte maand">
+<!ENTITY @EXTENSION@.formats.opt4 "Volledige maand">
+<!ENTITY @EXTENSION@.formats.opt5 "Eeuwnummer">
+<!ENTITY @EXTENSION@.formats.opt6 "Dag van de maand (00 .. 31)">
+<!ENTITY @EXTENSION@.formats.opt7 "Dag van de maand (0 .. 31)">
+<!ENTITY @EXTENSION@.formats.opt8 "uur (00 .. 23)">
+<!ENTITY @EXTENSION@.formats.opt9 "Uur (01 .. 12)">
+<!ENTITY @EXTENSION@.formats.opt10 "Dag van het jaar (000 .. 366)">
+<!ENTITY @EXTENSION@.formats.opt11 "Uur (0 .. 23)">
+<!ENTITY @EXTENSION@.formats.opt12 "Uur (1 .. 12)">
+<!ENTITY @EXTENSION@.formats.opt13 "Maand (01 .. 12)">
+<!ENTITY @EXTENSION@.formats.opt14 "Minuut (00 .. 59)">
+<!ENTITY @EXTENSION@.formats.opt15 "NM of VM">
+<!ENTITY @EXTENSION@.formats.opt16 "nm of nm">
+<!ENTITY @EXTENSION@.formats.opt17 "seconden (00 .. 59)">
+<!ENTITY @EXTENSION@.formats.opt18 "Aantal seconden sinds Epoch (sinds 01 januari 1970 00:00:00 UTC)">
+<!ENTITY @EXTENSION@.formats.opt19 "Tabulatiekarakter">
+<!ENTITY @EXTENSION@.formats.opt20 "Weeknummer">
+<!ENTITY @EXTENSION@.formats.opt21 "Weekdag (1 .. 7, 1 = MA)">
+<!ENTITY @EXTENSION@.formats.opt22 "Weekdag (0 .. 6, 0 = ZO)">
+<!ENTITY @EXTENSION@.formats.opt23 "Jaar zonder eeuwnummer (00 .. 99)">
+<!ENTITY @EXTENSION@.formats.opt24 "Jaar incl. eeuwnummer (b.v. 1972)">
+<!ENTITY @EXTENSION@.formats.opt25 "Letterlijk &#37; karakter">
