@@ -2,10 +2,10 @@
 
 /** Returns the number of day in the year. */
 Date.prototype.getDayOfYear = function() {
-	var now = new Date(this.getFullYear(), this.getMonth(), this.getDate(), 0, 0, 0);
-	var then = new Date(this.getFullYear(), 0, 0, 0, 0, 0);
-	var time = now - then;
-	return Math.floor(time / (24 * 60 * 60 * 1000));
+	var now = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
+	var then = new Date(new Date().getFullYear(), 0, 0);
+	var time = now - (now.getTimezoneOffset() * 60 * 1000) - then;
+	return time / (24 * 60 * 60 * 1000);
 };
 
 /** Returns the number of the week in year, as defined in ISO 8601. */
