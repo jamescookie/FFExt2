@@ -1,0 +1,27 @@
+<!ENTITY @EXTENSION@.formats.title "@EXTENSION_FULL@ formatteringsindstillinger">
+<!ENTITY @EXTENSION@.formats.options "Formatteringsindstillinger:">
+<!ENTITY @EXTENSION@.formats.opt1 "forkort ugedag-navn">
+<!ENTITY @EXTENSION@.formats.opt2 "fuldt ugedag-navn">
+<!ENTITY @EXTENSION@.formats.opt3 "forkortet månedsnavn">
+<!ENTITY @EXTENSION@.formats.opt4 "fuldt månedsnavn">
+<!ENTITY @EXTENSION@.formats.opt5 "århundrede-nummer">
+<!ENTITY @EXTENSION@.formats.opt6 "dag i måneden ( 00 .. 31 )">
+<!ENTITY @EXTENSION@.formats.opt7 "dag i måneden ( 00 .. 31 )">
+<!ENTITY @EXTENSION@.formats.opt8 "time ( 00 .. 23 )">
+<!ENTITY @EXTENSION@.formats.opt9 "time ( 01 .. 12 )">
+<!ENTITY @EXTENSION@.formats.opt10 "dag i året ( 000 .. 366 )">
+<!ENTITY @EXTENSION@.formats.opt11 "time ( 00 .. 23 )">
+<!ENTITY @EXTENSION@.formats.opt12 "time ( 01 .. 12 )">
+<!ENTITY @EXTENSION@.formats.opt13 "måned ( 01 .. 12 )">
+<!ENTITY @EXTENSION@.formats.opt14 "minut ( 00 .. 59 )">
+<!ENTITY @EXTENSION@.formats.opt15 "PM eller AM">
+<!ENTITY @EXTENSION@.formats.opt16 "pm eller am">
+<!ENTITY @EXTENSION@.formats.opt17 "sekund ( 00 ... 59 )">
+<!ENTITY @EXTENSION@.formats.opt18 "antal sekunder siden Epoke (siden 1. jan 1970 00:00:00 UTC)">
+<!ENTITY @EXTENSION@.formats.opt19 "et tabulator-tegn">
+<!ENTITY @EXTENSION@.formats.opt20 "ugenummeret">
+<!ENTITY @EXTENSION@.formats.opt21 "dag i ugen ( 1 .. 7, 1 = MAN )">
+<!ENTITY @EXTENSION@.formats.opt22 "dag i ugen ( 0 .. 6, 0 = SØN )">
+<!ENTITY @EXTENSION@.formats.opt23 "år uden århundrede ( 00 .. 99 )">
+<!ENTITY @EXTENSION@.formats.opt24 "år inklusiv århundrede ( f.eks. 1972 )">
+<!ENTITY @EXTENSION@.formats.opt25 "et literalt &#37;-tegn">

@@ -1,0 +1,15 @@
+<!ENTITY @EXTENSION@.prefs.tab1 "月曆">
+<!ENTITY @EXTENSION@.prefs.tab2 "位置設定">
+
+<!ENTITY @EXTENSION@.prefs.title "@EXTENSION_FULL@ 選項">
+<!ENTITY @EXTENSION@.prefs.intro "在此設定您的月曆選項">
+
+<!ENTITY @EXTENSION@.prefs.dateFormatLabel "選取日期時的格式">
+<!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "顯示於狀態列的今天日期格式">
+<!ENTITY @EXTENSION@.prefs.dateFormatInfo "關於可用日期參數的詳細資訊請參見:">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelpLabel "或者按此開啟簡易說明:">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelp "說明">
+
+<!ENTITY @EXTENSION@.prefs.positioning "選擇狀態列的偏好位置:">
+<!ENTITY @EXTENSION@.prefs.before "之前">
+<!ENTITY @EXTENSION@.prefs.after "之後">

@@ -1,0 +1,15 @@
+<!ENTITY @EXTENSION@.prefs.tab1 "Kalender">
+<!ENTITY @EXTENSION@.prefs.tab2 "Placering">
+
+<!ENTITY @EXTENSION@.prefs.title "Datovælger/Kalender indstillinger">
+<!ENTITY @EXTENSION@.prefs.intro "Definér dine kalenderindstillinger her">
+
+<!ENTITY @EXTENSION@.prefs.dateFormatLabel "Format for det valgte er">
+<!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Format for dags dato i statuslinjen er">
+<!ENTITY @EXTENSION@.prefs.dateFormatInfo "For mere information om hvilke parametre du kan bruge i datoformatet se:">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelpLabel "Alternativt, klik hér for en hurtig guide (engelsk):">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelp "Hjælp">
+
+<!ENTITY @EXTENSION@.prefs.positioning "Vælg din foretrukne statuslinje-placering:">
+<!ENTITY @EXTENSION@.prefs.before "Før">
+<!ENTITY @EXTENSION@.prefs.after "Efter">
