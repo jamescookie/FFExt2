@@ -1,9 +1,6 @@
 # Firefox
 overlay	chrome://browser/content/browser.xul	chrome://@EXTENSION@/content/@EXTENSION@Overlay.xul
 
-# Thunderbird
-overlay chrome://messenger/content/messenger.xul chrome://@EXTENSION@/content/@EXTENSION@Overlay.xul
-
 content	@EXTENSION@	            jar:chrome/@EXTENSION@.jar!/content/@EXTENSION@/
 skin	@EXTENSION@	classic/1.0	jar:chrome/@EXTENSION@.jar!/skin/classic/@EXTENSION@/
 

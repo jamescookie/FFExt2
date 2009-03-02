@@ -3,125 +3,121 @@
 <!DOCTYPE dialog SYSTEM "chrome://@EXTENSION@/locale/formats.dtd">
 
 <dialog id="@EXTENSION@Prefs"
-	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
-	buttons="accept"
-	ondialogaccept="window.close();"
-	title="&@EXTENSION@.formats.title;"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    buttons="accept"
+    ondialogaccept="window.close();"
+    title="&@EXTENSION@.formats.title;"
     flex="1">
 
-    <vbox>
-        <text value="&@EXTENSION@.formats.options;"/>
-        <separator class="thin"/>
+    <groupbox>
+        <caption label="&@EXTENSION@.formats.options;"/>
         <grid flex="1">
             <columns>
-                <column flex="1" style="margin-right:10px"/>
-                <column flex="4"/>
+                <column/>
+                <column/>
             </columns>
-
             <rows>
                 <row>
-                    <text value="%a"/>
-                    <text value="&@EXTENSION@.formats.opt1;"/>
+                    <label value="%a"/>
+                    <label value="&@EXTENSION@.formats.opt1;"/>
                 </row>
                 <row>
-                    <text value="%A"/>
-                    <text value="&@EXTENSION@.formats.opt2;"/>
+                    <label value="%A"/>
+                    <label value="&@EXTENSION@.formats.opt2;"/>
                 </row>
                 <row>
-                    <text value="%b"/>
-                    <text value="&@EXTENSION@.formats.opt3;"/>
+                    <label value="%b"/>
+                    <label value="&@EXTENSION@.formats.opt3;"/>
                 </row>
                 <row>
-                    <text value="%B"/>
-                    <text value="&@EXTENSION@.formats.opt4;"/>
+                    <label value="%B"/>
+                    <label value="&@EXTENSION@.formats.opt4;"/>
                 </row>
                 <row>
-                    <text value="%C"/>
-                    <text value="&@EXTENSION@.formats.opt5;"/>
+                    <label value="%C"/>
+                    <label value="&@EXTENSION@.formats.opt5;"/>
                 </row>
                 <row>
-                    <text value="%d"/>
-                    <text value="&@EXTENSION@.formats.opt6;"/>
+                    <label value="%d"/>
+                    <label value="&@EXTENSION@.formats.opt6;"/>
                 </row>
                 <row>
-                    <text value="%e"/>
-                    <text value="&@EXTENSION@.formats.opt7;"/>
+                    <label value="%e"/>
+                    <label value="&@EXTENSION@.formats.opt7;"/>
                 </row>
                 <row>
-                    <text value="%H"/>
-                    <text value="&@EXTENSION@.formats.opt8;"/>
+                    <label value="%H"/>
+                    <label value="&@EXTENSION@.formats.opt8;"/>
                 </row>
                 <row>
-                    <text value="%I"/>
-                    <text value="&@EXTENSION@.formats.opt9;"/>
+                    <label value="%I"/>
+                    <label value="&@EXTENSION@.formats.opt9;"/>
                 </row>
                 <row>
-                    <text value="%j"/>
-                    <text value="&@EXTENSION@.formats.opt10;"/>
+                    <label value="%j"/>
+                    <label value="&@EXTENSION@.formats.opt10;"/>
                 </row>
                 <row>
-                    <text value="%k"/>
-                    <text value="&@EXTENSION@.formats.opt11;"/>
+                    <label value="%k"/>
+                    <label value="&@EXTENSION@.formats.opt11;"/>
                 </row>
                 <row>
-                    <text value="%l"/>
-                    <text value="&@EXTENSION@.formats.opt12;"/>
+                    <label value="%l"/>
+                    <label value="&@EXTENSION@.formats.opt12;"/>
                 </row>
                 <row>
-                    <text value="%m"/>
-                    <text value="&@EXTENSION@.formats.opt13;"/>
+                    <label value="%m"/>
+                    <label value="&@EXTENSION@.formats.opt13;"/>
                 </row>
                 <row>
-                    <text value="%M"/>
-                    <text value="&@EXTENSION@.formats.opt14;"/>
+                    <label value="%M"/>
+                    <label value="&@EXTENSION@.formats.opt14;"/>
                 </row>
                 <row>
-                    <text value="%p"/>
-                    <text value="&@EXTENSION@.formats.opt15;"/>
+                    <label value="%p"/>
+                    <label value="&@EXTENSION@.formats.opt15;"/>
                 </row>
                 <row>
-                    <text value="%P"/>
-                    <text value="&@EXTENSION@.formats.opt16;"/>
+                    <label value="%P"/>
+                    <label value="&@EXTENSION@.formats.opt16;"/>
                 </row>
                 <row>
-                    <text value="%S"/>
-                    <text value="&@EXTENSION@.formats.opt17;"/>
+                    <label value="%S"/>
+                    <label value="&@EXTENSION@.formats.opt17;"/>
                 </row>
                 <row>
-                    <text value="%s"/>
-                    <text value="&@EXTENSION@.formats.opt18;"/>
+                    <label value="%s"/>
+                    <label value="&@EXTENSION@.formats.opt18;"/>
                 </row>
                 <row>
-                    <text value="%t"/>
-                    <text value="&@EXTENSION@.formats.opt19;"/>
+                    <label value="%t"/>
+                    <label value="&@EXTENSION@.formats.opt19;"/>
                 </row>
                 <row>
-                    <text value="%U"/>
-                    <text value="&@EXTENSION@.formats.opt20;"/>
+                    <label value="%U"/>
+                    <label value="&@EXTENSION@.formats.opt20;"/>
                 </row>
                 <row>
-                    <text value="%u"/>
-                    <text value="&@EXTENSION@.formats.opt21;"/>
+                    <label value="%u"/>
+                    <label value="&@EXTENSION@.formats.opt21;"/>
                 </row>
                 <row>
-                    <text value="%w"/>
-                    <text value="&@EXTENSION@.formats.opt22;"/>
+                    <label value="%w"/>
+                    <label value="&@EXTENSION@.formats.opt22;"/>
                 </row>
                 <row>
-                    <text value="%y"/>
-                    <text value="&@EXTENSION@.formats.opt23;"/>
+                    <label value="%y"/>
+                    <label value="&@EXTENSION@.formats.opt23;"/>
                 </row>
                 <row>
-                    <text value="%Y"/>
-                    <text value="&@EXTENSION@.formats.opt24;"/>
+                    <label value="%Y"/>
+                    <label value="&@EXTENSION@.formats.opt24;"/>
                 </row>
                 <row>
-                    <text value="%%"/>
-                    <text value="&@EXTENSION@.formats.opt25;"/>
+                    <label value="%%"/>
+                    <label value="&@EXTENSION@.formats.opt25;"/>
                 </row>
             </rows>
         </grid>
-    </vbox>
-    <spring flex="1"/>
-
+    </groupbox>
 </dialog>

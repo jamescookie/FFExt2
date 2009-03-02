@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://@EXTENSION@/skin/@EXTENSION@.css" type="text/css"?>
 <!DOCTYPE dialog SYSTEM "chrome://@EXTENSION@/locale/prefs.dtd">
 
-<dialog id="@EXTENSION@Prefs"
-	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
-	buttons="accept, cancel"
-	onload="@EXTENSION@PrefsVar.init();"
-	ondialogaccept="return @EXTENSION@PrefsVar.accept();"
-	title="&@EXTENSION@.prefs.title;"
+<prefwindow id="@EXTENSION@Prefs"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    buttons="accept, cancel"
+    onload="@EXTENSION@PrefsVar.init();"
+    ondialogaccept="return @EXTENSION@PrefsVar.accept();"
+    title="&@EXTENSION@.prefs.title;"
     flex="1">
 
     <stringbundleset id="stringbundleset">
@@ -17,50 +17,46 @@
 
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/calendarLanguage.js" />
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/preferenceUtils.js" />
-	<script type="application/x-javascript" src="chrome://@EXTENSION@/content/@EXTENSION@Prefs.js"/>
+    <script type="application/x-javascript" src="chrome://@EXTENSION@/content/@EXTENSION@Prefs.js"/>
 
-    <tabbox>
-        <tabs>
-            <tab label="&@EXTENSION@.prefs.tab1;"/>
-            <tab label="&@EXTENSION@.prefs.tab2;"/>
-        </tabs>
-        <tabpanels>
-            <tabpanel orient="vertical">
-                <label class="header" value="&@EXTENSION@.prefs.intro;" />
-                <separator class="thin"/>
-                <hbox align="center">
-                  <label value="&@EXTENSION@.prefs.dateFormatLabel;"/>
-                  <textbox id="dateFormat" maxlength="255" />
-                </hbox>
-                <hbox align="center">
-                  <label value="&@EXTENSION@.prefs.shortDateFormatLabel;"/>
-                  <textbox id="shortDateFormat" maxlength="255" />
-                </hbox>
-                <vbox style="margin-left:6px">
-                  <text value="&@EXTENSION@.prefs.dateFormatInfo;" style="font-size: 80%; color: #f00;"/>
-                  <text value="@EXTENSIONS_URL@" style="font-size: 80%; color: #f00; cursor: pointer;" onclick="window.open('@EXTENSIONS_URL@'); window.close();"/>
-                </vbox>
-                <hbox align="center">
-                    <label value="&@EXTENSION@.prefs.dateFormatHelpLabel;" style="font-size: 80%; color: #f00;"/>
-                    <button id="help" onclick="window.openDialog('chrome://@EXTENSION@/content/@EXTENSION@Formats.xul', '@EXTENSION@Formats', 'chrome,modal,centerscreen,resizable=no,dependent=yes');" style="max-width:20px; text-align:center;">&@EXTENSION@.prefs.dateFormatHelp;</button>
-                </hbox>
-            </tabpanel>
-            <tabpanel orient="vertical">
-                <label value="&@EXTENSION@.prefs.positioning;" control="listOrder"/>
-                <hbox>
-                    <menulist id="listOrder">
-                        <menupopup>
-                            <menuitem value="before" label="&@EXTENSION@.prefs.before;"/>
-                            <menuitem value="after" label="&@EXTENSION@.prefs.after;"/>
-                        </menupopup>
-                    </menulist>
-                    <menulist id="listPanels">
-                        <menupopup>
-                        </menupopup>
-                    </menulist>
-                </hbox>
-            </tabpanel>
-        </tabpanels>
-    </tabbox>
+    <prefpane id="pane1" label="&@EXTENSION@.prefs.tab1;">
+        <preferences/>
+        <groupbox>
+            <caption label="&@EXTENSION@.prefs.intro;"/>
+            <hbox align="center">
+                <label value="&@EXTENSION@.prefs.dateFormatLabel;"/>
+                <textbox id="dateFormat" maxlength="255"/>
+            </hbox>
+            <hbox align="center">
+                <label value="&@EXTENSION@.prefs.shortDateFormatLabel;"/>
+                <textbox id="shortDateFormat" maxlength="255"/>
+            </hbox>
+            <label value="&@EXTENSION@.prefs.dateFormatInfo;" class="font80"/>
+            <label value="@EXTENSIONS_URL@" class="link" onclick="window.open('@EXTENSIONS_URL@'); window.close();"/>
+            <hbox align="center">
+                <label value="&@EXTENSION@.prefs.dateFormatHelpLabel;" class="font80"/>
+                <button id="help" label="&@EXTENSION@.prefs.dateFormatHelp;" onclick="window.openDialog('chrome://@EXTENSION@/content/@EXTENSION@Formats.xul', '@EXTENSION@Formats', 'chrome,modal,centerscreen,resizable=no,dependent=yes');"/>
+            </hbox>
+        </groupbox>
+    </prefpane>
 
-</dialog>
+    <prefpane id="pane2" label="&@EXTENSION@.prefs.tab2;">
+        <preferences/>
+        <groupbox>
+            <caption label="&@EXTENSION@.prefs.positioning;" control="listOrder"/>
+            <hbox>
+                <menulist id="listOrder">
+                    <menupopup>
+                        <menuitem value="before" label="&@EXTENSION@.prefs.before;"/>
+                        <menuitem value="after" label="&@EXTENSION@.prefs.after;"/>
+                    </menupopup>
+                </menulist>
+                <menulist id="listPanels">
+                    <menupopup/>
+                </menulist>
+            </hbox>
+            <separator class="thin"/>
+        </groupbox>
+    </prefpane>
+
+</prefwindow>

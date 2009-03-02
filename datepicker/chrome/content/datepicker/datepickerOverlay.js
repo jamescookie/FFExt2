@@ -79,7 +79,7 @@ var @EXTENSION@Var = {
         window.openDialog(
                 "chrome://@EXTENSION@/content/@EXTENSION@Prefs.xul",
                 "_@EXTENSION@Options",
-	 	        "chrome,modal,centerscreen,resizable=no,dependent=yes");
+	 	        "chrome,toolbar,modal,centerscreen,resizable=no,dependent=yes");
     }
 }
 
