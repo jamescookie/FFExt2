@@ -1,0 +1,79 @@
+Index: datepicker/install.rdf
+===================================================================
+--- datepicker/install.rdf	(revision 270)
++++ datepicker/install.rdf	Tue Mar 03 22:26:15 GMT 2009
+@@ -15,6 +15,15 @@
+ 		<em:aboutURL>chrome://@EXTENSION@/content/about.xul</em:aboutURL>
+ 		<em:optionsURL>chrome://@EXTENSION@/content/@EXTENSION@Prefs.xul</em:optionsURL>
+ 
++        <!-- Thunderbird -->
++        <em:targetApplication>
++          <Description>
++            <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
++            <em:minVersion>1.5</em:minVersion>
++            <em:maxVersion>3.0b2pre</em:maxVersion>
++          </Description>
++        </em:targetApplication>
++
+         <!-- Firefox -->
+ 		<em:targetApplication>
+ 			<Description>
+Index: datepicker/chrome/content/datepicker/datepickerOverlay.js
+===================================================================
+--- datepicker/chrome/content/datepicker/datepickerOverlay.js	(revision 270)
++++ datepicker/chrome/content/datepicker/datepickerOverlay.js	Tue Mar 03 22:23:51 GMT 2009
+@@ -59,7 +59,7 @@
+     },
+ 
+     updateDate: function() {
+-        document.getElementById("statusbar-@EXTENSION@-display").setAttribute("label", new Date().@EXTENSION@Print(@EXTENSION@Var.getShortDateFormat()));
++        document.getElementById("statusbar-@EXTENSION@-text").setAttribute("value", new Date().@EXTENSION@Print(@EXTENSION@Var.getShortDateFormat()));
+     },
+ 
+     getShortDateFormat: function() {
+Index: datepicker/chrome/content/datepicker/datepickerOverlay.xul
+===================================================================
+--- datepicker/chrome/content/datepicker/datepickerOverlay.xul	(revision 269)
++++ datepicker/chrome/content/datepicker/datepickerOverlay.xul	Tue Mar 03 22:23:51 GMT 2009
+@@ -13,19 +13,20 @@
+     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/@EXTENSION@Overlay.js" />
+     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/xulcalendar.js" />
+ 
+-	<popupset id="mainPopupSet">
+-		<popup id="@EXTENSION@-contextmenu">
+-			<menuitem id="ts-menu-settings" oncommand="@EXTENSION@Var.showOptions();" label="&@EXTENSION@.cal.options;"/>
+-		</popup>
+-	</popupset>
+-
+     <statusbar id="status-bar">
+         <statusbarpanel id="statusbar-@EXTENSION@-display"
+             insertafter=""
+             hidden="false"
+             onclick="@EXTENSION@Var.showCalendar(event)"
+             context="@EXTENSION@-contextmenu"
+-            style="min-width: 16px; white-space: nowrap; padding: 0px;" />
++            style="min-width: 16px; white-space: nowrap; padding: 0px;">
++            <label id="statusbar-@EXTENSION@-text" class="statusbarpanel-text" value=""/>
++            <popupset>
++                <popup id="@EXTENSION@-contextmenu">
++                    <menuitem id="ts-menu-settings" oncommand="@EXTENSION@Var.showOptions();" label="&@EXTENSION@.cal.options;"/>
++                </popup>
++            </popupset>
++        </statusbarpanel>
+     </statusbar>
+ 
+ </overlay>
+Index: datepicker/chrome.manifest
+===================================================================
+--- datepicker/chrome.manifest	(revision 270)
++++ datepicker/chrome.manifest	Tue Mar 03 22:24:31 GMT 2009
+@@ -1,6 +1,9 @@
+ # Firefox
+ overlay	chrome://browser/content/browser.xul	chrome://@EXTENSION@/content/@EXTENSION@Overlay.xul
+ 
++# Thunderbird
++overlay chrome://messenger/content/messenger.xul chrome://@EXTENSION@/content/@EXTENSION@Overlay.xul
++
+ content	@EXTENSION@	            jar:chrome/@EXTENSION@.jar!/content/@EXTENSION@/
+ skin	@EXTENSION@	classic/1.0	jar:chrome/@EXTENSION@.jar!/skin/classic/@EXTENSION@/
+ 
