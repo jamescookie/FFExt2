@@ -5,6 +5,11 @@ var @EXTENSION@ShowVar = {
         @EXTENSION@LanguageVar.loadLanguage();
         var prefs = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
         this.@EXTENSION@DateFormat = @EXTENSION@PrefUtilsVar.getCharacterPreferenceValue("dateFormat", prefs, "%d %B %Y");
+        var cal = document.createElement("datepicker")
+        cal.setAttribute('type', 'grid');
+        cal.setAttribute('onchange', '@EXTENSION@ShowVar.showDate(this.dateValue)');
+        cal.setAttribute('firstdayofweek', @EXTENSION@PrefUtilsVar.getIntegerPreferenceValue("weekStart", prefs, 0));
+        document.getElementById("datepickercontainer").appendChild(cal)
         this.showDate(new Date());
     },
 

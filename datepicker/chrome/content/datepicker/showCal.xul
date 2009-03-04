@@ -19,7 +19,7 @@
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/preferenceUtils.js" />
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/showCal.js"/>
 
-    <datepicker type="grid" onchange="@EXTENSION@ShowVar.showDate(this.dateValue)"/>
+    <div id="datepickercontainer"/>
 
     <textbox style="margin-left:7px;margin-right:7px;" id="datebox"/>
 </dialog>

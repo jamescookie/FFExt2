@@ -4,6 +4,7 @@
 <!ENTITY @EXTENSION@.prefs.title "@EXTENSION_FULL@ opties">
 <!ENTITY @EXTENSION@.prefs.intro "Definieer hier uw kalenderopties">
 
+<!ENTITY @EXTENSION@.prefs.weekStartLabel "Pick the day that the week starts on">
 <!ENTITY @EXTENSION@.prefs.dateFormatLabel "Opmaak voor selectie is">
 <!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Opmaak voor de datum van vandaag in de statusbalk is">
 <!ENTITY @EXTENSION@.prefs.dateFormatInfo "Kijk voor meer informatie over welke parameters u kunt gebruiken in de datumopmaak op:">

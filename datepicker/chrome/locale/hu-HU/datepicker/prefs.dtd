@@ -4,6 +4,7 @@
 <!ENTITY @EXTENSION@.prefs.title "@EXTENSION_FULL@ beállítások">
 <!ENTITY @EXTENSION@.prefs.intro "Naptár beállítása:">
 
+<!ENTITY @EXTENSION@.prefs.weekStartLabel "Pick the day that the week starts on">
 <!ENTITY @EXTENSION@.prefs.dateFormatLabel "A dátum formátuma">
 <!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "A mai nap megjelenítési formátuma az állapotsorban">
 <!ENTITY @EXTENSION@.prefs.dateFormatInfo "A dátum beállításainak további paramétereiről információt tudhat meg:">

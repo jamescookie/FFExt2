@@ -4,6 +4,7 @@
 <!ENTITY @EXTENSION@.prefs.title "@EXTENSION_FULL@ 選項">
 <!ENTITY @EXTENSION@.prefs.intro "在此設定您的月曆選項">
 
+<!ENTITY @EXTENSION@.prefs.weekStartLabel "Pick the day that the week starts on">
 <!ENTITY @EXTENSION@.prefs.dateFormatLabel "選取日期時的格式">
 <!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "顯示於狀態列的今天日期格式">
 <!ENTITY @EXTENSION@.prefs.dateFormatInfo "關於可用日期參數的詳細資訊請參見:">

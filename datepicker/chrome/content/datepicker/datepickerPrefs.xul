@@ -23,6 +23,10 @@
         <preferences/>
         <groupbox>
             <caption label="&@EXTENSION@.prefs.intro;"/>
+            <hbox>
+                <label value="&@EXTENSION@.prefs.weekStartLabel;" control="weekStart" />
+                <menulist id="weekStart" width="100" />
+            </hbox>
             <hbox align="center">
                 <label value="&@EXTENSION@.prefs.dateFormatLabel;"/>
                 <textbox id="dateFormat" maxlength="255"/>

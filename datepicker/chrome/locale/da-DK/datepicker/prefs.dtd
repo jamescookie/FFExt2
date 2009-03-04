@@ -4,6 +4,7 @@
 <!ENTITY @EXTENSION@.prefs.title "Datovælger/Kalender indstillinger">
 <!ENTITY @EXTENSION@.prefs.intro "Definér dine kalenderindstillinger her">
 
+<!ENTITY @EXTENSION@.prefs.weekStartLabel "Pick the day that the week starts on">
 <!ENTITY @EXTENSION@.prefs.dateFormatLabel "Format for det valgte er">
 <!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Format for dags dato i statuslinjen er">
 <!ENTITY @EXTENSION@.prefs.dateFormatInfo "For mere information om hvilke parametre du kan bruge i datoformatet se:">

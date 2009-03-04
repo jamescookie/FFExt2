@@ -3,6 +3,7 @@ var @EXTENSION@PrefsVar = {
         @EXTENSION@LanguageVar.loadLanguage();
         var prefs = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
 
+        this.populateLists("weekStart", @EXTENSION@PrefUtilsVar.getIntegerPreferenceValue("weekStart", prefs, 0));
         document.getElementById("dateFormat").setAttribute("value", @EXTENSION@PrefUtilsVar.getCharacterPreferenceValue("dateFormat", prefs));
         document.getElementById("shortDateFormat").setAttribute("value", @EXTENSION@PrefUtilsVar.getCharacterPreferenceValue("shortDateFormat", prefs));
 
@@ -35,12 +36,27 @@ var @EXTENSION@PrefsVar = {
         }
     },
 
+    populateLists: function(listId, selected) {
+        var menuItem;
+        var menu = document.getElementById(listId);
+        var menuPopUp = document.createElement("menupopup");
+        menu.appendChild(menuPopUp);
+        for (var i = 0; i < 7; i++) {
+            menuItem = document.createElement("menuitem");
+            menuItem.setAttribute("label", @EXTENSION@LanguageVar._DN[i]);
+            menuItem.setAttribute("value", i);
+            menuPopUp.appendChild(menuItem);
+        }
+        menu.selectedIndex = selected;
+    },
+
     accept: function() {
         var prefs = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
 
         // tab 1
         prefs.setCharPref("@EXTENSION@.dateFormat", document.getElementById("dateFormat").value);
         prefs.setCharPref("@EXTENSION@.shortDateFormat", document.getElementById("shortDateFormat").value);
+        @EXTENSION@PrefUtilsVar.saveDropDownField("weekStart", prefs);
 
         // tab 2
         prefs.setCharPref("@EXTENSION@.position", document.getElementById("listOrder").value + " " + document.getElementById("listPanels").value);

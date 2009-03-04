@@ -4,6 +4,7 @@
 <!ENTITY @EXTENSION@.prefs.title "@EXTENSION_FULL@ - Optionen">
 <!ENTITY @EXTENSION@.prefs.intro "Stellen Sie die Kalenderoptionen hier ein">
 
+<!ENTITY @EXTENSION@.prefs.weekStartLabel "Pick the day that the week starts on">
 <!ENTITY @EXTENSION@.prefs.dateFormatLabel "Anzeigeformat für den gewählten Tag:">
 <!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Anzeigeformat für die aktuelle Zeit in der Statusleiste:">
 <!ENTITY @EXTENSION@.prefs.dateFormatInfo "Weitere Informationen über die Parameter für die Datumsformatierung finden Sie hier:">
