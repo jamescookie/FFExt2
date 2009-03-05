@@ -27,6 +27,11 @@ var @EXTENSION@PrefUtilsVar = {
         return tmp;
     },
 
+    saveCharacterField: function(fieldName, prefs) {
+        var tmp = document.getElementById(fieldName).value;
+        prefs.setCharPref("@EXTENSION@."+fieldName, tmp);
+    },
+
     saveDropDownField: function (fieldName, prefs) {
         var tmp = document.getElementById(fieldName).selectedIndex;
         prefs.setIntPref("@EXTENSION@."+fieldName, tmp);

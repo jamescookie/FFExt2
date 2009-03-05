@@ -12,7 +12,6 @@
 
     <stringbundleset id="stringbundleset">
         <stringbundle id="cal-bundle" src="chrome://@EXTENSION@/locale/cal.properties"/>
-        <stringbundle id="cal-pref-bundle" src="chrome://@EXTENSION@/locale/prefs.properties"/>
     </stringbundleset>
 
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/calendarLanguage.js" />

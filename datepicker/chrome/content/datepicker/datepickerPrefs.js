@@ -54,8 +54,8 @@ var @EXTENSION@PrefsVar = {
         var prefs = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
 
         // tab 1
-        prefs.setCharPref("@EXTENSION@.dateFormat", document.getElementById("dateFormat").value);
-        prefs.setCharPref("@EXTENSION@.shortDateFormat", document.getElementById("shortDateFormat").value);
+        @EXTENSION@PrefUtilsVar.saveCharacterField("dateFormat", prefs)
+        @EXTENSION@PrefUtilsVar.saveCharacterField("shortDateFormat", prefs)
         @EXTENSION@PrefUtilsVar.saveDropDownField("weekStart", prefs);
 
         // tab 2
