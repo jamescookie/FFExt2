@@ -10,5 +10,8 @@ var @EXTENSION@LanguageVar = {
         @EXTENSION@LanguageVar._PML = calBundle.getString("postMeridiemLower");
         @EXTENSION@LanguageVar._AMU = calBundle.getString("anteMeridiemUpper");
         @EXTENSION@LanguageVar._PMU = calBundle.getString("postMeridiemUpper");
+        @EXTENSION@LanguageVar.dateFormat = calBundle.getString("dateFormat");
+        @EXTENSION@LanguageVar.shortDateFormat = calBundle.getString("shortDateFormat");
+        @EXTENSION@LanguageVar.weekStart = calBundle.getString("weekStart");
     }
 }

@@ -33,7 +33,16 @@ var @EXTENSION@Var = {
 
     init: function() {
         this.setPanelPosition();
+        this.setDefaultPreferences();
         this.refreshDate();
+    },
+
+    setDefaultPreferences: function() {
+        this.checkLanguageLoaded();
+        var prefs = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
+        prefs.setCharPref("@EXTENSION@.dateFormat", @EXTENSION@PrefUtilsVar.getCharacterPreferenceValueWithDefault("dateFormat", prefs, @EXTENSION@LanguageVar.dateFormat));
+        prefs.setCharPref("@EXTENSION@.shortDateFormat", @EXTENSION@PrefUtilsVar.getCharacterPreferenceValueWithDefault("shortDateFormat", prefs, @EXTENSION@LanguageVar.shortDateFormat));
+        prefs.setIntPref("@EXTENSION@.weekStart", @EXTENSION@PrefUtilsVar.getIntegerPreferenceValue("weekStart", prefs, @EXTENSION@LanguageVar.weekStart));
     },
 
     removeTicker: function() {
