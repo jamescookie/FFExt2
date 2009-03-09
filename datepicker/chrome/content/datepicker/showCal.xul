@@ -5,7 +5,10 @@
 <dialog id="@EXTENSION@Prefs"
     xmlns:html="http://www.w3.org/1999/xhtml"
     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
-    buttons="accept"
+    buttons="help, cancel"
+    buttonlabelhelp="&@EXTENSION@.cal.today;"
+    buttonlabelcancel="&@EXTENSION@.cal.close;"
+    ondialoghelp="@EXTENSION@ShowVar.today();"
     onload="@EXTENSION@ShowVar.init();"
     title="&@EXTENSION@.cal.title;"
     flex="1">

@@ -1,2 +1,4 @@
 <!ENTITY @EXTENSION@.cal.title "@EXTENSION_FULL@">
+<!ENTITY @EXTENSION@.cal.today "Today">
+<!ENTITY @EXTENSION@.cal.close "Close">
 <!ENTITY @EXTENSION@.cal.options "選項...">
