@@ -2,6 +2,7 @@
 var @EXTENSION@Var = {
     ticker: null,
     languageLoaded: false,
+    windowHandle: null,
 
     checkLanguageLoaded: function() {
         if (!this.languageLoaded) {
@@ -77,11 +78,15 @@ var @EXTENSION@Var = {
 
     showCalendar: function(event) {
         if (event.button == 0) {
-            window.openDialog(
-                "chrome://@EXTENSION@/content/showCal.xul",
-                "_@EXTENSION@",
-                "chrome,centerscreen,resizable=no");
-		}
+            if (@EXTENSION@Var.windowHandle == null || @EXTENSION@Var.windowHandle.closed) {
+                @EXTENSION@Var.windowHandle = window.openDialog(
+                    "chrome://@EXTENSION@/content/showCal.xul",
+                    "_@EXTENSION@",
+                    "chrome,centerscreen,resizable=no");
+            } else {
+                @EXTENSION@Var.windowHandle.focus();
+            }
+        }
     },
 
     showOptions: function() {
