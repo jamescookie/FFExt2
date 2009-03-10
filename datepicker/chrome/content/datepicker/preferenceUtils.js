@@ -1,4 +1,18 @@
 var @EXTENSION@PrefUtilsVar = {
+    populateLists: function(listId, selected, count, objArray) {
+        var menuItem;
+        var menu = document.getElementById(listId);
+        var menuPopUp = document.createElement("menupopup");
+        menu.appendChild(menuPopUp);
+        for (var i = 0; i < count; i++) {
+            menuItem = document.createElement("menuitem");
+            menuItem.setAttribute("label", objArray[i]);
+            menuItem.setAttribute("value", i);
+            menuPopUp.appendChild(menuItem);
+        }
+        menu.selectedIndex = selected;
+    },
+
     getCharacterPreferenceValue: function(fieldName, prefs) {
         return this.getCharacterPreferenceValueWithDefault(fieldName, prefs, "Unknown");
     },
