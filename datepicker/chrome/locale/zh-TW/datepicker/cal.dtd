@@ -1,4 +1,6 @@
 <!ENTITY @EXTENSION@.cal.title "@EXTENSION_FULL@">
+<!ENTITY @EXTENSION@.cal.pick "Pick a date to display">
+<!ENTITY @EXTENSION@.cal.jump "Jump to">
 <!ENTITY @EXTENSION@.cal.today "Today">
 <!ENTITY @EXTENSION@.cal.close "Close">
 <!ENTITY @EXTENSION@.cal.options "選項...">

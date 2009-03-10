@@ -22,7 +22,21 @@
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/preferenceUtils.js" />
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/showCal.js"/>
 
-    <div id="datepickercontainer"/>
+    <groupbox>
+        <caption label="&@EXTENSION@.cal.pick;"/>
+        <div id="datepickercontainer"/>
 
-    <textbox style="margin-left:7px;margin-right:7px;" id="datebox"/>
+        <textbox style="margin: 0 8px 0 8px;" id="datebox"/>
+    </groupbox>
+
+    <groupbox>
+        <caption label="&@EXTENSION@.cal.jump;"/>
+        <hbox>
+            <spacer flex="1"/>
+            <menulist id="month" oncommand="@EXTENSION@ShowVar.changeDate();" />
+            <textbox id="year" maxlength="4" size="4" type="number" min="100" max="9999" onchange="@EXTENSION@ShowVar.changeDate();" />
+            <spacer flex="1"/>
+        </hbox>
+    </groupbox>
+
 </dialog>

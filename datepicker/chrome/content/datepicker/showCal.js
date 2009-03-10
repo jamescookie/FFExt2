@@ -4,30 +4,45 @@ var @EXTENSION@ShowVar = {
 
     init: function() {
         @EXTENSION@LanguageVar.loadLanguage();
+        var date = new Date();
         var prefs = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
         this.@EXTENSION@DateFormat = @EXTENSION@PrefUtilsVar.getCharacterPreferenceValue("dateFormat", prefs, "%d %B %Y");
         this.firstdayofweek = @EXTENSION@PrefUtilsVar.getIntegerPreferenceValue("weekStart", prefs, 0);
-        this.createNewCalendar();
+        @EXTENSION@PrefUtilsVar.populateLists('month', date.getMonth(), 12, @EXTENSION@LanguageVar._MN);
+        document.getElementById('year').value = date.getFullYear();
+        this.createNewCalendar(date);
     },
 
-    createNewCalendar: function() {
+    createNewCalendar: function(date) {
         var cal = document.createElement("datepicker");
         cal.setAttribute('type', 'grid');
         cal.setAttribute('onchange', '@EXTENSION@ShowVar.showDate(this.dateValue)');
         cal.setAttribute('firstdayofweek', this.firstdayofweek);
         cal.setAttribute('id', 'datepicker');
+        cal.setAttribute('value', date.@EXTENSION@Print('%Y-%m-%d'));
         document.getElementById("datepickercontainer").appendChild(cal);
-        this.showDate(new Date());
+        this.showDate(date);
+    },
+
+    redisplayCalendar: function(date) {
+        var cal = document.getElementById("datepicker");
+        document.getElementById("datepickercontainer").removeChild(cal);
+        this.createNewCalendar(date);
     },
 
     today: function() {
-        var cal = document.getElementById("datepicker");
-        document.getElementById("datepickercontainer").removeChild(cal);
-        this.createNewCalendar();
+        this.redisplayCalendar(new Date());
     },
 
-    showDate: function(aDate) {
-        document.getElementById("datebox").value = aDate.@EXTENSION@Print(this.@EXTENSION@DateFormat);
+    changeDate: function() {
+        var date = new Date();
+        date.setMonth(document.getElementById('month').selectedIndex)
+        date.setFullYear(document.getElementById('year').value)
+        this.redisplayCalendar(date);
+    },
+
+    showDate: function(date) {
+        document.getElementById("datebox").value = date.@EXTENSION@Print(this.@EXTENSION@DateFormat);
     }
 }
 
