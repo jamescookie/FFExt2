@@ -2,8 +2,8 @@
 
 /** Returns the number of day in the year. */
 Date.prototype.getDayOfYear = function() {
-	var now = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
-	var then = new Date(new Date().getFullYear(), 0, 0);
+	var now = new Date(this.getFullYear(), this.getMonth(), this.getDate());
+	var then = new Date(this.getFullYear(), 0, 0);
 	var time = now - (now.getTimezoneOffset() * 60 * 1000) - then;
 	return time / (24 * 60 * 60 * 1000);
 };
