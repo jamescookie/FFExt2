@@ -1,0 +1,4 @@
+Sort out the positioning
+Add two more calendars either side showing next/last month (configuarble?)
+Get working with thunderbird
+get a scratchpad on the formats help screen working
