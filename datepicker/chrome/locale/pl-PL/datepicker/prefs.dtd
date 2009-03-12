@@ -4,7 +4,7 @@
 <!ENTITY @EXTENSION@.prefs.title "Ustawienia daty/kalendarza">
 <!ENTITY @EXTENSION@.prefs.intro "Tutaj możesz zdefiniować ustawienia kalendarza">
 
-<!ENTITY @EXTENSION@.prefs.weekStartLabel "Pick the day that the week starts on">
+<!ENTITY @EXTENSION@.prefs.weekStartLabel "Wybierz początkowy dzień tygodnia">
 <!ENTITY @EXTENSION@.prefs.dateFormatLabel "Format daty w kalendarzu:">
 <!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Format daty na pasku stanu:">
 <!ENTITY @EXTENSION@.prefs.dateFormatInfo "Aby uzyskać więcej informacji na temat ustawiania daty przejdź na:">

@@ -1,7 +1,7 @@
 <!ENTITY @EXTENSION@.formats.title "@EXTENSION_FULL@ - Opciones de formato">
 <!ENTITY @EXTENSION@.formats.options "Opciones de formato:">
-<!ENTITY @EXTENSION@.formats.opt1 "nombre de la semana abreviado">
-<!ENTITY @EXTENSION@.formats.opt2 "nombre de la semana completo">
+<!ENTITY @EXTENSION@.formats.opt1 "nombre del día abreviado">
+<!ENTITY @EXTENSION@.formats.opt2 "nombre del día completo">
 <!ENTITY @EXTENSION@.formats.opt3 "nombre del mes abreviado">
 <!ENTITY @EXTENSION@.formats.opt4 "nombre del mes completo">
 <!ENTITY @EXTENSION@.formats.opt5 "número del siglo">

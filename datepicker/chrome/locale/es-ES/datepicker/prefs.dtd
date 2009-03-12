@@ -4,11 +4,11 @@
 <!ENTITY @EXTENSION@.prefs.title "@EXTENSION_FULL@ - Opciones">
 <!ENTITY @EXTENSION@.prefs.intro "Defina las opciones de su calendario aquí">
 
-<!ENTITY @EXTENSION@.prefs.weekStartLabel "Pick the day that the week starts on">
+<!ENTITY @EXTENSION@.prefs.weekStartLabel "Elija el día en el que comienza la semana">
 <!ENTITY @EXTENSION@.prefs.dateFormatLabel "Formato para la selección">
 <!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Formato para la fecha actual en la barra de estado">
-<!ENTITY @EXTENSION@.prefs.dateFormatInfo "Para más información sobre los parámteros que puede usar mire:">
-<!ENTITY @EXTENSION@.prefs.dateFormatHelpLabel "Altetnativamente, pulse aquí para una guía rápida:">
+<!ENTITY @EXTENSION@.prefs.dateFormatInfo "Para más información sobre los parámetros que puede usar mire:">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelpLabel "Alternativamente, pulse aquí para una guía rápida:">
 <!ENTITY @EXTENSION@.prefs.dateFormatHelp "Ayuda">
 
 <!ENTITY @EXTENSION@.prefs.positioning "Seleccione su posición preferida en la barra de estado:">
