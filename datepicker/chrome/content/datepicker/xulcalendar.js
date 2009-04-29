@@ -5,7 +5,7 @@ Date.prototype.getDayOfYear = function() {
 	var now = new Date(this.getFullYear(), this.getMonth(), this.getDate());
 	var then = new Date(this.getFullYear(), 0, 0);
 	var time = now - (now.getTimezoneOffset() * 60 * 1000) - then;
-	return time / (24 * 60 * 60 * 1000);
+    return Math.round(time / (24 * 60 * 60 * 1000));
 };
 
 /** Returns the number of the week in year, as defined in ISO 8601. */
