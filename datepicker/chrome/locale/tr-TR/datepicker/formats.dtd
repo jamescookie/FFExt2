@@ -1,0 +1,27 @@
+<!ENTITY @EXTENSION@.formats.title "Tarih Seçici/Takvim biçimi seçenekleri">
+<!ENTITY @EXTENSION@.formats.options "Biçim Seçenekleri:">
+<!ENTITY @EXTENSION@.formats.opt1 "kısaltılmış gün adı">
+<!ENTITY @EXTENSION@.formats.opt2 "tam gün adı">
+<!ENTITY @EXTENSION@.formats.opt3 "kısaltılmış ay adı">
+<!ENTITY @EXTENSION@.formats.opt4 "tam ay adı">
+<!ENTITY @EXTENSION@.formats.opt5 "yüzyıl sayısı">
+<!ENTITY @EXTENSION@.formats.opt6 "ayın günü (00 .. 31 )">
+<!ENTITY @EXTENSION@.formats.opt7 "ayın günü (0 .. 31 )">
+<!ENTITY @EXTENSION@.formats.opt8 "saat ( 00 .. 23 )">
+<!ENTITY @EXTENSION@.formats.opt9 "saat ( 01 .. 12 )">
+<!ENTITY @EXTENSION@.formats.opt10 "yılın günü(000 .. 366 )">
+<!ENTITY @EXTENSION@.formats.opt11 "saat ( 0 .. 23 )">
+<!ENTITY @EXTENSION@.formats.opt12 "saat( 1 .. 12 )">
+<!ENTITY @EXTENSION@.formats.opt13 "ay (01 .. 12)">
+<!ENTITY @EXTENSION@.formats.opt14 "dakika ( 00 .. 59)">
+<!ENTITY @EXTENSION@.formats.opt15 "PM ya da AM">
+<!ENTITY @EXTENSION@.formats.opt16 "pm ya da am">
+<!ENTITY @EXTENSION@.formats.opt17 "saniye ( 00 .. 59)">
+<!ENTITY @EXTENSION@.formats.opt18 "Tarih başlangıcındn bu yana geçen saniye sayısı (1 Ocak 1970 00:00:00 UTC&apos;dan itibaren)">
+<!ENTITY @EXTENSION@.formats.opt19 "bir sekme karakteri">
+<!ENTITY @EXTENSION@.formats.opt20 "hafta sayısı">
+<!ENTITY @EXTENSION@.formats.opt21 "haftanın günü ( 1 .. 7, 1 = PTS )">
+<!ENTITY @EXTENSION@.formats.opt22 "haftanın günü ( 0 .. 6, 0 = PAZ )">
+<!ENTITY @EXTENSION@.formats.opt23 "yüzyıl olmadan yıl ( 00 .. 99 )">
+<!ENTITY @EXTENSION@.formats.opt24 "yüzyılı içeren yıl (örn. 1972)">
+<!ENTITY @EXTENSION@.formats.opt25 "simgesel &#37; karakter">

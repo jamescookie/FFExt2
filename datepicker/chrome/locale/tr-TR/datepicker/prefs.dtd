@@ -1,0 +1,13 @@
+<!ENTITY @EXTENSION@.prefs.tab1 "Takvim">
+<!ENTITY @EXTENSION@.prefs.tab2 "Konumlandırma">
+<!ENTITY @EXTENSION@.prefs.title "Tarih Seçici/Takvim Seçenekleri">
+<!ENTITY @EXTENSION@.prefs.intro "Takvim seçeneklerinizi burada tanımlayın">
+<!ENTITY @EXTENSION@.prefs.weekStartLabel "Haftanın başlangıç gününü seçin">
+<!ENTITY @EXTENSION@.prefs.dateFormatLabel "Seçim için format">
+<!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Durum çubuğunda bugünün tarihi için format">
+<!ENTITY @EXTENSION@.prefs.dateFormatInfo "Tarih formatında hangi değişkenleri kullanabileceğinizle ilgili daha fazla bilgi için bakınız:">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelpLabel "Alternatif olarak, hızlı bir rehber için buraya tıklayın:">
+<!ENTITY @EXTENSION@.prefs.dateFormatHelp "Yardım">
+<!ENTITY @EXTENSION@.prefs.positioning "Tercih ettiğiniz durum çubuğu konumunu seçin:">
+<!ENTITY @EXTENSION@.prefs.before "Önce">
+<!ENTITY @EXTENSION@.prefs.after "Sonra">

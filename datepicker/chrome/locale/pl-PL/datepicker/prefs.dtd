@@ -1,16 +1,13 @@
 <!ENTITY @EXTENSION@.prefs.tab1 "Kalendarz">
 <!ENTITY @EXTENSION@.prefs.tab2 "Pozycjonowanie">
-
 <!ENTITY @EXTENSION@.prefs.title "Ustawienia daty/kalendarza">
 <!ENTITY @EXTENSION@.prefs.intro "Tutaj możesz zdefiniować ustawienia kalendarza">
-
 <!ENTITY @EXTENSION@.prefs.weekStartLabel "Wybierz początkowy dzień tygodnia">
 <!ENTITY @EXTENSION@.prefs.dateFormatLabel "Format daty w kalendarzu:">
 <!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Format daty na pasku stanu:">
 <!ENTITY @EXTENSION@.prefs.dateFormatInfo "Aby uzyskać więcej informacji na temat ustawiania daty przejdź na:">
 <!ENTITY @EXTENSION@.prefs.dateFormatHelpLabel "Lub kliknij tutaj, aby zobaczyć krótki przewodnik:">
 <!ENTITY @EXTENSION@.prefs.dateFormatHelp "Pomoc">
-
 <!ENTITY @EXTENSION@.prefs.positioning "Położenie daty na pasku stanu:">
 <!ENTITY @EXTENSION@.prefs.before "przed">
 <!ENTITY @EXTENSION@.prefs.after "po">

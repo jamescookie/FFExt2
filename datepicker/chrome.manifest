@@ -17,4 +17,6 @@ locale	@EXTENSION@	nl-NL   	jar:chrome/@EXTENSION@.jar!/locale/nl-NL/@EXTENSION@
 locale	@EXTENSION@	pl-PL   	jar:chrome/@EXTENSION@.jar!/locale/pl-PL/@EXTENSION@/
 locale	@EXTENSION@	pt-BR   	jar:chrome/@EXTENSION@.jar!/locale/pt-BR/@EXTENSION@/
 locale	@EXTENSION@	pt-PT   	jar:chrome/@EXTENSION@.jar!/locale/pt-PT/@EXTENSION@/
+locale	@EXTENSION@	tr-TR   	jar:chrome/@EXTENSION@.jar!/locale/tr-TR/@EXTENSION@/
+locale	@EXTENSION@	uk-UA   	jar:chrome/@EXTENSION@.jar!/locale/uk-UA/@EXTENSION@/
 locale	@EXTENSION@	zh-TW   	jar:chrome/@EXTENSION@.jar!/locale/zh-TW/@EXTENSION@/

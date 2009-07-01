@@ -1,27 +1,27 @@
 <!ENTITY @EXTENSION@.formats.title "@EXTENSION_FULL@ 格式選項">
 <!ENTITY @EXTENSION@.formats.options "格式選項:">
-<!ENTITY @EXTENSION@.formats.opt1 "星期 (Weekday) 縮寫">
-<!ENTITY @EXTENSION@.formats.opt2 "完整星期名">
-<!ENTITY @EXTENSION@.formats.opt3 "月份縮寫">
-<!ENTITY @EXTENSION@.formats.opt4 "完整月份名">
+<!ENTITY @EXTENSION@.formats.opt1 "星期縮寫 (sun .. sat)">
+<!ENTITY @EXTENSION@.formats.opt2 "中文星期 (星期日 .. 星期六)">
+<!ENTITY @EXTENSION@.formats.opt3 "月份縮寫 (Jan .. Dec)">
+<!ENTITY @EXTENSION@.formats.opt4 "中文月份 (一月 ..十二月)">
 <!ENTITY @EXTENSION@.formats.opt5 "世紀">
-<!ENTITY @EXTENSION@.formats.opt6 "日數 ( 00 .. 31 )">
-<!ENTITY @EXTENSION@.formats.opt7 "日數 ( 0 .. 31 )">
+<!ENTITY @EXTENSION@.formats.opt6 "日 ( 00 .. 31 )">
+<!ENTITY @EXTENSION@.formats.opt7 "日 ( 0 .. 31 )">
 <!ENTITY @EXTENSION@.formats.opt8 "時 ( 00 .. 23 )">
 <!ENTITY @EXTENSION@.formats.opt9 "時 ( 01 .. 12 )">
-<!ENTITY @EXTENSION@.formats.opt10 "全年日數 (000 .. 366 )">
+<!ENTITY @EXTENSION@.formats.opt10 "日，以全年計算 (000 .. 366 )">
 <!ENTITY @EXTENSION@.formats.opt11 "時 ( 0 .. 23 )">
 <!ENTITY @EXTENSION@.formats.opt12 "時 ( 1 .. 12 )">
 <!ENTITY @EXTENSION@.formats.opt13 "月 ( 01 .. 12)">
 <!ENTITY @EXTENSION@.formats.opt14 "分 ( 00 .. 59)">
-<!ENTITY @EXTENSION@.formats.opt15 "PM 或 AM">
-<!ENTITY @EXTENSION@.formats.opt16 "pm 或 am">
+<!ENTITY @EXTENSION@.formats.opt15 "上午/下午">
+<!ENTITY @EXTENSION@.formats.opt16 "a.m./p.m.">
 <!ENTITY @EXTENSION@.formats.opt17 "秒 ( 00 .. 59)">
-<!ENTITY @EXTENSION@.formats.opt18 "UNIX時間戳記 (從 Jan 01 1970 00:00:00 UTC 以來的秒數)">
-<!ENTITY @EXTENSION@.formats.opt19 "一個分隔字元">
-<!ENTITY @EXTENSION@.formats.opt20 "週序數">
+<!ENTITY @EXTENSION@.formats.opt18 "UNIX時間戳記 ( Jan 01 1970 00:00:00 UTC 至今的總秒數)">
+<!ENTITY @EXTENSION@.formats.opt19 "一個分隔字元 (tab)">
+<!ENTITY @EXTENSION@.formats.opt20 "週數">
 <!ENTITY @EXTENSION@.formats.opt21 "星期 ( 1 .. 7, 1 = 週一 )">
 <!ENTITY @EXTENSION@.formats.opt22 "星期 ( 0 .. 6, 0 = 週日 )">
-<!ENTITY @EXTENSION@.formats.opt23 "二位年份 ( 00 .. 99 )">
-<!ENTITY @EXTENSION@.formats.opt24 "四位年份 ( ex. 1972 )">
+<!ENTITY @EXTENSION@.formats.opt23 "年份，顯示末二位數字 ( 00 .. 99 )">
+<!ENTITY @EXTENSION@.formats.opt24 "年份，顯示四位數字 ( ex. 1972 )">
 <!ENTITY @EXTENSION@.formats.opt25 "一個 &#37; 宇元">
