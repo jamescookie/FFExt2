@@ -35,7 +35,7 @@
                 <textbox id="shortDateFormat" maxlength="255"/>
             </hbox>
             <label value="&@EXTENSION@.prefs.dateFormatInfo;" class="font80"/>
-            <label value="@EXTENSIONS_URL@" class="link" onclick="window.open('@EXTENSIONS_URL@'); window.close();"/>
+            <label value="@EXTENSIONS_URL@" class="link" onclick="window.open('@EXTENSIONS_URL@');"/>
             <hbox align="center">
                 <label value="&@EXTENSION@.prefs.dateFormatHelpLabel;" class="font80"/>
                 <button id="help" label="&@EXTENSION@.prefs.dateFormatHelp;" onclick="window.openDialog('chrome://@EXTENSION@/content/@EXTENSION@Formats.xul', '@EXTENSION@Formats', 'chrome,modal,centerscreen,resizable=no,dependent=yes');"/>

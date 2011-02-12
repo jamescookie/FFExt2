@@ -16,16 +16,16 @@ var @EXTENSION@Var = {
             var position = @EXTENSION@PrefUtilsVar.getCharacterPreferenceValueWithDefault("position", Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch), "");
             var myRegExp = new RegExp(" ", "");
             if (myRegExp.test(position) && (RegExp.rightContext != "")) {
-                var statusbar = document.getElementById("status-bar");
-                var myPanel = document.getElementById("statusbar-@EXTENSION@-display");
-                var panels = statusbar.getElementsByAttribute("id", RegExp.rightContext);
+                var addonbar = document.getElementById("addon-bar");
+                var myPanel = document.getElementById("addonbar-@EXTENSION@-display");
+                var panels = addonbar.getElementsByAttribute("id", RegExp.rightContext);
                 if (panels.length > 0) {
                     if (RegExp.leftContext == "before") {
-                        statusbar.removeChild(myPanel);
-                        statusbar.insertBefore(myPanel, panels[0]);
+                        addonbar.removeChild(myPanel);
+                        addonbar.insertBefore(myPanel, panels[0]);
                     } else if (RegExp.leftContext == "after") {
-                        statusbar.removeChild(myPanel);
-                        statusbar.insertBefore(myPanel, panels[0].nextSibling);
+                        addonbar.removeChild(myPanel);
+                        addonbar.insertBefore(myPanel, panels[0].nextSibling);
                     }
                 }
             }
@@ -69,7 +69,7 @@ var @EXTENSION@Var = {
     },
 
     updateDate: function() {
-        document.getElementById("statusbar-@EXTENSION@-display").setAttribute("label", new Date().@EXTENSION@Print(@EXTENSION@Var.getShortDateFormat()));
+        document.getElementById("addonbar-@EXTENSION@-display").setAttribute("label", new Date().@EXTENSION@Print(@EXTENSION@Var.getShortDateFormat()));
     },
 
     getShortDateFormat: function() {

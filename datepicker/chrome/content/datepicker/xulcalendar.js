@@ -72,5 +72,14 @@ Date.prototype.@EXTENSION@Print = function (str) {
 
 	var re = /%./g;
 
-    return str.replace(re, function (par) { return s[par] || par; });
+	var a = str.match(re);
+	for (var i = 0; i < a.length; i++) {
+		var tmp = s[a[i]];
+		if (tmp) {
+			re = new RegExp(a[i], 'g');
+			str = str.replace(re, tmp);
+		}
+	}
+
+	return str;
 };

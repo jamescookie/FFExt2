@@ -14,18 +14,17 @@
     <script type="application/x-javascript" src="chrome://@EXTENSION@/content/xulcalendar.js" />
 
 	<popupset id="mainPopupSet">
-		<popup id="@EXTENSION@-contextmenu">
-			<menuitem id="ts-menu-settings" oncommand="@EXTENSION@Var.showOptions();" label="&@EXTENSION@.cal.options;"/>
-		</popup>
+		<menupopup id="@EXTENSION@-contextmenu">
+			<menuitem oncommand="@EXTENSION@Var.showOptions();" label="&@EXTENSION@.cal.options;"/>
+		</menupopup>
 	</popupset>
 
-    <statusbar id="status-bar">
-        <statusbarpanel id="statusbar-@EXTENSION@-display"
-            insertafter=""
+    <toolbarpalette id="addon-bar">
+        <toolbarbutton id="addonbar-@EXTENSION@-display"
             hidden="false"
             onclick="@EXTENSION@Var.showCalendar(event)"
             context="@EXTENSION@-contextmenu"
-            style="min-width: 16px; white-space: nowrap; padding: 0px;" />
-    </statusbar>
+            style="min-width: 16px; white-space: nowrap; padding: 0px;"/>
+    </toolbarpalette>
 
 </overlay>

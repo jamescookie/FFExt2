@@ -4,10 +4,10 @@
 <!ENTITY @EXTENSION@.prefs.intro "Definieer hier uw kalenderopties">
 <!ENTITY @EXTENSION@.prefs.weekStartLabel "Geef de dag op waarop de week start">
 <!ENTITY @EXTENSION@.prefs.dateFormatLabel "Opmaak voor selectie is">
-<!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Opmaak voor de datum van vandaag in de statusbalk is">
+<!ENTITY @EXTENSION@.prefs.shortDateFormatLabel "Opmaak voor de datum van vandaag in de addonbalk is">
 <!ENTITY @EXTENSION@.prefs.dateFormatInfo "Kijk voor meer informatie over welke parameters u kunt gebruiken in de datumopmaak op:">
 <!ENTITY @EXTENSION@.prefs.dateFormatHelpLabel "Of klik hier voor een snelle gids:">
 <!ENTITY @EXTENSION@.prefs.dateFormatHelp "Help">
-<!ENTITY @EXTENSION@.prefs.positioning "Kies de statusbalkpositie van uw voorkeur:">
+<!ENTITY @EXTENSION@.prefs.positioning "Kies de addonbalkpositie van uw voorkeur:">
 <!ENTITY @EXTENSION@.prefs.before "Voor">
 <!ENTITY @EXTENSION@.prefs.after "Na">

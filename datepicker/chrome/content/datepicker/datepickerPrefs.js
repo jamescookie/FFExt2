@@ -15,17 +15,17 @@ var @EXTENSION@PrefsVar = {
             try { listOrder.value = RegExp.leftContext; } catch(ex) { dump(ex + "\n"); }
         }
         if (RegExp.rightContext != "") {
-            var statusbar;
+            var addonbar;
             var win = Components.classes["@mozilla.org/appshell/window-mediator;1"].
                       getService(Components.interfaces.nsIWindowMediator).getMostRecentWindow("navigator:browser");
-            if (win) statusbar = win.document.getElementById("status-bar");
-            if (!statusbar || (!statusbar.hasChildNodes())) { return; }
+            if (win) addonbar = win.document.getElementById("addon-bar");
+            if (!addonbar || (!addonbar.hasChildNodes())) { return; }
             var id;
-            var childNodes = statusbar.childNodes;
+            var childNodes = addonbar.childNodes;
             var length = 0;
             for (var i=0; i < childNodes.length; i++) {
                 id = childNodes[i].getAttribute("id");
-                if ((id == "") || (id == "statusbar-@EXTENSION@-display")) { continue; }
+                if ((id == "") || (id == "addonbar-@EXTENSION@-display")) { continue; }
                 listPanels.appendItem(id, id);
                 ++length;
             }
